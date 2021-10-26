@@ -1,18 +1,43 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Bando": 
+  - firstname: ["Yoshiaki", "Y."]
+    url: https://ybando.jp/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Barker":
+  - firstname: ["Jon", "Jon P.", "J.", "J. P."]
+    url: http://staffwww.dcs.shef.ac.uk/people/J.Barker/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Fontaine":
+  - firstname: ["Mathieu", "M."]
+    url: https://matfontaine.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Kawahara":
+  - firstname: ["Tatsuya", "T."]
+    url: http://sap.ist.i.kyoto-u.ac.jp/members/kawahara/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Liutkus":
+  - firstname: ["Antoine", "A."]
+    url: https://members.loria.fr/ALiutkus/
+
+"Marxer":
+  - firstname: ["Ricard", "R."]
+    url: https://www.ricardmarxer.com/
+
+"Masuyama":
+  - firstname: ["Yoshiki", "Y."]
+    url: https://sites.google.com/view/yoshiki-masuyama/home
+
+"Sekiguchi":
+  - firstname: ["Kouhei", "K."]
+    url: http://sap.ist.i.kyoto-u.ac.jp/members/sekiguch/
+
+"Vincent":
+  - firstname: ["Emmanuel", "E."]
+    url: https://members.loria.fr/EVincent/
+
+"Watanabe":
+  - firstname: ["Shinji", "S."]
+    url: https://sites.google.com/view/shinjiwatanabe
+
+"Yoshii":
+  - firstname: ["Kazuyoshi", "K."]
+    url: http://sap.ist.i.kyoto-u.ac.jp/members/yoshii/
