@@ -2,7 +2,7 @@
 layout: page
 title: NF-IVA
 description: 'A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based Independent Vector Analysis for Blind Source Separation," IEEE Signal Process. Lett., vol. 27, pp. 2173-2177, 2020'
-img: /demo/nfiva/featured.png
+img: assets/img/demo/featured_nfiva.png
 importance: -4
 category: work
 ---

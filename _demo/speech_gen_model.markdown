@@ -2,7 +2,7 @@
 layout: page
 title: Complex-Valued Speech Generative Model
 description: 'A. A. Nugraha, K. Sekiguchi, and K. Yoshii, "A deep generative model of speech complex spectrograms," in Proc. IEEE Int. Conf. Acoust., Speech, Signal Process., Brighton, UK, 2019, pp. 905--909.'
-img: /demo/speech_gen_model/featured.png
+img: assets/img/demo/featured_speech_gen_model.png
 importance: -1
 category: work
 redirect_from:

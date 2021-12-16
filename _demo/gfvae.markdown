@@ -2,7 +2,7 @@
 layout: page
 title: GF-VAE
 description: 'A. A. Nugraha, K. Sekiguchi, and K. Yoshii, "A flow-based deep latent variable model for speech spectrogram modeling and enhancement," IEEE/ACM Trans. Audio, Speech, Language Process., vol. 28, pp. 1104--1117, 2020.'
-img: /demo/gfvae/featured.png
+img: assets/img/demo/featured_gfvae.png
 importance: -3
 category: work
 redirect_from:
