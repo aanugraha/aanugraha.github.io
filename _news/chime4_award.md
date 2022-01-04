@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our article received ISCA Award for the Best Review Paper published in Computer Speech and Language (2016-2020). 🥳
+title: Our article "An analysis of environment, microphone and data simulation mismatches in robust speech recognition" received ISCA Award for the Best Review Paper published in Computer Speech and Language (2016-2020). 🥳
 date: 2021-09-03 18:00:00+0200
 inline: false
 ---
