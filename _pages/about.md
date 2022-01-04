@@ -10,11 +10,7 @@ profile:
   address: >
     <p><small>Kyoto University Artificial Intelligence Research Unit,</small></p>
     <p><small>Research Building No. 15,</small></p>
-<<<<<<< HEAD
     <p><small>Room No. 102,</small></p>
-=======
-    <p><small>Room #102,</small></p>
->>>>>>> 2a0b9cddf5031bf1a04f3ac3afb45ceb9bdfd7fb
     <p><small>Yoshida-honmachi, Sakyo-ku, Kyoto, 606-8501 JAPAN</small></p>
 
 education: false
