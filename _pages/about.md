@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Postdoc @ <a href="https://www.riken.jp/en/research/labs/aip/index.html">RIKEN-AIP</a> (Japan) &#8212; Dr. in Informatics from University of Lorraine (France)
+description: Research Scientist @ <a href="https://www.riken.jp/en/research/labs/aip/index.html">RIKEN-AIP</a> (Japan) &#8212; Dr. in Informatics from University of Lorraine (France)
 
 profile:
   align: right
