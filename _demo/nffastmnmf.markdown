@@ -28,7 +28,7 @@ A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based F
 
 ---
 
-<h4 id="stationary">Stationary Dataset</h4>
+<h4 id="stationary">Stationary Data</h4>
 
 <h5><code class="language-plaintext highlighter-rouge">PCAFETER_12dB -- 447o030b_446o0315_444o030t</code></h5>
 
@@ -282,7 +282,7 @@ A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based F
 
 ---
 
-<h4 id="nonstationary">Non-stationary Dataset</h4>
+<h4 id="nonstationary">Non-stationary Data</h4>
 
 <h5><code class="language-plaintext highlighter-rouge">PCAFETER_12dB -- 447o030b_446o0315_444o030t</code></h5>
 
