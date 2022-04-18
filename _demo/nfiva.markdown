@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NF-IVA
-description: 'A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based Independent Vector Analysis for Blind Source Separation," IEEE Signal Process. Lett., vol. 27, pp. 2173-2177, 2020'
+description: 'A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based Independent Vector Analysis for Blind Source Separation," IEEE Signal Process. Lett., vol. 27, pp. 2173-2177, 2020.'
 img: assets/img/demo/featured_nfiva.png
 importance: -4
 category: work
@@ -23,8 +23,8 @@ A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based I
 
 ### Audio Samples
 
-- All methods considered below are for determined blind source separation (BSS), in which  source images are estimated given  observations (captured by  microphones) irrespective of the actual number of sources . Therefore, as post-processing for the overdetermined cases (), we pick  estimated source images that have the highest average power.
-- For listening purpose, all audio files are stereo obtained by taking the first two channels from the estimated multichannel source images.
+- All methods considered below are for determined blind source separation (BSS), in which source images are estimated given observations (captured by  microphones) irrespective of the actual number of sources. Therefore, as post-processing for the overdetermined cases, we pick estimated source images that have the highest average power.
+- For the listening purpose, all audio files are stereo obtained by taking the first two channels from the estimated multichannel source images.
 - For simplicity, the number of parameter updates for AuxIVA is 64 and that for the others is 2048, although they might be sub-optimal.
 
 ---
