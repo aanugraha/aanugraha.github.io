@@ -42,6 +42,24 @@
     abstract = {This paper describes aneural blind source separation (BSS) method based on amortized variational inference (AVI) of a non-linear generative model of mixture signals. A classical statistical approach to BSS is to fit a linear generative model that consists of spatial and source models representing the inter-channel covariances and power spectral densities of sources, respectively. Although the variational autoencoder (VAE) has successfully been used as a non-linear source model with latent features, it should be pretrained from a sufficient amount of isolated signals. Our method, in contrast, enables the VAE-based source model to be trained only from mixture signals. Specifically, we introduce a neural mixture-to-feature inference model that directly infers the latent features from the observed mixture and integrate it with a neural feature-to-mixture generative model consisting of a full-rank spatial model and a VAE-based source model. All the models are optimized jointly such that the likelihood for the training mixtures is maximized in the framework of AVI. Once the inference model is optimized, it can be used for estimating the latent features of sources included in unseen mixture signals. The experimental results show that the proposed method outperformed the state-of-the-art BSS methods based on linear generative models and was comparable to a method based on supervised learning of the VAE-based sourcemodel.},
 }
 
+@ARTICLE{fontaine22gsmfastmnmf,
+    selected = {true},
+    abbr     = {TASLP},
+    bibtex_show = {true},
+    author   = {Fontaine, Mathieu and Sekiguchi, Kouhei and Nugraha, Aditya Arie and Bando, Yoshiaki and Yoshii, Kazuyoshi},
+    journal  = {{IEEE/ACM} Transactions on Audio, Speech, and Language Processing}, 
+    title    = {Generalized Fast Multichannel Nonnegative Matrix Factorization Based on Gaussian Scale Mixtures for Blind Source Separation}, 
+    year     = {2022},
+    month    = {},
+    volume   = {},
+    number   = {},
+    pages    = {1--1},
+    url      = {https://ieeexplore.ieee.org/abstract/document/9769993},
+    html     = {https://ieeexplore.ieee.org/abstract/document/9769993},
+    doi      = {10.1109/TASLP.2022.3172631},
+    abstract = {This paper describes heavy-tailed extensions of a state-of-the-art versatile blind source separation method called fast multichannel nonnegative matrix factorization (FastMNMF) from a unified point of view. The common way of deriving such an extension is to replace the multivariate complex Gaussian distribution in the likelihood function with its heavy-tailed generalization, e.g., the multivariate complex Student's t and leptokurtic generalized Gaussian distributions, and tailor-make the corresponding parameter optimization algorithm. Using a wider class of heavy-tailed distributions called a Gaussian scale mixture (GSM), i.e., a mixture of Gaussian distributions whose variances are perturbed by positive random scalars called impulse variables, we propose GSM-FastMNMF and develop an expectation-maximization algorithm that works even when the probability density function of the impulse variables have no analytical expressions. We show that existing heavy-tailed FastMNMF extensions are instances of GSM-FastMNMF and derive a new instance based on the generalized hyperbolic distribution that include the normal-inverse Gaussian, Student's t, and Gaussian distributions as the special cases. Our experiments show that the normal-inverse Gaussian FastMNMF outperforms the state-of-the-art FastMNMF extensions and ILRMA model in speech enhancement and separation in terms of the signal-to-distortion ratio.},
+}
+
 @article{narendra2010multimedia,
     abbr     = {AEEI},
     bibtex_show = {true},
@@ -361,6 +379,25 @@
     poster    = {https://sigport.org/documents/deep-generative-model-speech-complex-spectrograms},
     doi       = {10.1109/ICASSP.2019.8682797},
     abstract  = {This paper proposes an approach to the joint modeling of the short-time Fourier transform magnitude and phase spectrograms with a deep generative model. We assume that the magnitude follows a Gaussian distribution and the phase follows a von Mises distribution. To improve the consistency of the phase values in the time-frequency domain, we also apply the von Mises distribution to the phase derivatives, i.e., the group delay and the instantaneous frequency. Based on these assumptions, we explore and compare several combinations of loss functions for training our models. Built upon the variational autoencoder framework, our model consists of three convolutional neural networks acting as an encoder, a magnitude decoder, and a phase decoder. In addition to the latent variables, we propose to also condition the phase estimation on the estimated magnitude. Evaluated for a time-domain speech reconstruction task, our models could generate speech with a high perceptual quality and a high intelligibility.},
+}
+
+@InProceedings{nugraha22nffastmnmf,
+    selected  = {true},
+    abbr      = {ICASSP},
+    bibtex_show = {true},
+    author    = {Nugraha, Aditya Arie and Sekiguchi, Kouhei and Fontaine, Mathieu and Bando, Yoshiaki and Yoshii, Kazuyoshi},
+    title     = {Flow-Based Fast Multichannel Nonnegative Matrix Factorization for Blind Source Separation}, 
+    booktitle = {Proceedings of IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+    month     = may,
+    year      = {2022},
+    pages     = {501--505},
+    address   = {Singapore},
+    url       = {https://ieeexplore.ieee.org/document/9747718},
+    html      = {https://ieeexplore.ieee.org/document/9747718},
+    preprint  = {https://hal.archives-ouvertes.fr/hal-03637425/},
+    poster    = {https://sigport.org/documents/flow-based-fast-multichannel-nonnegative-matrix-factorization-blind-source-separation},
+    doi       = {10.1109/ICASSP43922.2022.9747718},
+    abstract  = {This paper describes a blind source separation method for multichannel audio signals, called NF-FastMNMF, based on the integration of the normalizing flow (NF) into the multichannel nonnegative matrix factorization with jointly-diagonalizable spatial covariance matrices, a.k.a. FastMNMF. Whereas the NF of flow-based independent vector analysis, called NF-IVA, acts as the demixing matrices to transform an M-channel mixture into M independent sources, the NF of NF-FastMNMF acts as the diagonalization matrices to transform an M- channel mixture into a spatially-independent M-channel mixture represented as a weighted sum of N source images. This diagonalization enables the NF, which has been used only for determined separation because of its bijective nature, to be applicable to non-determined separation. NF-FastMNMF has time-varying diagonalization matrices that are potentially better at handling dynamical data variation than the time-invariant ones in FastMNMF. To have an NF with richer expression capability, the dimension-wise scalings using diagonal matrices originally used in NF-IVA are replaced with linear transformations using upper triangular matrices; in both cases, the diagonal and upper triangular matrices are estimated by neural networks. The evaluation shows that NF-FastMNMF performs well for both determined and non-determined separations of multiple speech utterances by stationary or non-stationary speakers from a noisy reverberant mixture.},
 }
 
 @InProceedings{sekiguchi2019eusipco,
