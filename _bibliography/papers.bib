@@ -193,6 +193,16 @@
     award    = {15th IEEE Signal Processing Society (SPS) Japan Student Journal Paper Award},
 }
 
+@ARTICLE{sekiguchi22armafastmnmf,
+    abbr     = {TASLP},
+    bibtex_show = {true},
+    author   = {Kouhei Sekiguchi and Yoshiaki Bando and Aditya Arie Nugraha and Mathieu Fontaine and Kazuyoshi Yoshii and Tatsuya Kawahara},
+    journal  = {{IEEE/ACM} Transactions on Audio, Speech, and Language Processing}, 
+    title    = {Autoregressive Moving Average Jointly-Diagonalizable Spatial Covariance Analysis for Joint Source Separation and Dereverberation}, 
+    year     = {2022},
+    notes    = {Accepted}
+}
+
 @article{vincent2017csl,
     selected = {true},
     abbr     = {CSL},
@@ -238,7 +248,7 @@
 @INPROCEEDINGS{du2020phonespeakeraware,
     abbr     = {EUSIPCO},
     bibtex_show = {true},
-    author    = {Du, Yicheng and Sekiguchi, Kouhei and Bando, Yoshiaki and Arie Nugraha, Aditya and Fontaine, Mathieu and Yoshii, Kazuyoshi and Kawahara, Tatsuya},
+    author    = {Du, Yicheng and Sekiguchi, Kouhei and Bando, Yoshiaki and Nugraha, Aditya Arie and Fontaine, Mathieu and Yoshii, Kazuyoshi and Kawahara, Tatsuya},
     title     = {Semi-supervised Multichannel Speech Separation Based on a Phone- and Speaker-Aware Deep Generative Model of Speech Spectrograms}, 
     booktitle = {Proceedings of European Signal Processing Conference (EUSIPCO)},
     year      = {2020},
@@ -250,6 +260,20 @@
     pdf       = {https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/pdfs/0000870.pdf},
     doi       = {10.23919/Eusipco47968.2020.9287464},
     abstract  = {This paper describes a semi-supervised multichannel speech separation method that uses clean speech signals with frame-wise phonetic labels and sample-level speaker labels for pre-training. A standard approach to statistical source separation is to formulate a probabilistic model of multichannel mixture spectrograms that combines source models representing the time-frequency characteristics of sources with spatial models representing the covariance structure between channels. For speech separation and enhancement, deep generative models with latent variables have successfully been used as source models. The parameters of such a speech model can be trained beforehand from clean speech signals with a variational autoencoder (VAE) or its conditional variant (CVAE) that takes speaker labels as auxiliary inputs. Because human speech is characterized by both phonetic features and speaker identities, we propose a probabilistic model that combines a phone- and speaker-aware deep speech model with a full-rank spatial model. Our speech model is trained with a CVAE taking both phone and speaker labels as conditions. Given speech mixtures, the spatial covariance matrices, latent variables of sources, and phone and speaker labels of sources are jointly estimated. Comparative experimental results showed that the performance of speech separation can be improved by explicitly considering phonetic features and/or speaker identities.},
+}
+
+@inproceedings{du2022directionaware,
+    abbr      = {Interspeech},
+    bibtex_show = {true},
+    author    = {Du, Yicheng and Nugraha, Aditya Arie and Sekiguchi, Kouhei and Bando, Yoshiaki and Fontaine, Mathieu and Yoshii, Kazuyoshi},
+    title     = {Direction-Aware Joint Adaptation of Neural Speech Enhancement and Recognition in Real Multiparty Conversational Environments},
+    booktitle = {Proceedings of Annual Conference of the International Speech Communication
+Association (Interspeech)},
+    year      = {2022},
+    month     = sep,
+    pages     = {},
+    address   = {Incheon, South Korea},
+    notes     = {Accepted}
 }
 
 @InProceedings{fontaine2019eusipco,
@@ -275,7 +299,8 @@
     bibtex_show = {true},
     author    = {Mathieu Fontaine and Kouhei Sekiguchi and Aditya Arie Nugraha and Kazuyoshi Yoshii},
     title     = {Unsupervised Robust Speech Enhancement Based on Alpha-Stable Fast Multichannel Nonnegative Matrix Factorization},
-    booktitle = {Proceedings of Interspeech},
+    booktitle = {Proceedings of Annual Conference of the International Speech Communication
+Association (Interspeech)},
     year      = {2020},
     month     = oct,
     pages     = {4541--4545},
@@ -292,7 +317,8 @@
     bibtex_show = {true},
     author    = {Mathieu Fontaine and Kouhei Sekiguchi and Aditya Arie Nugraha and Yoshiaki Bando and Kazuyoshi Yoshii},
     title     = {Alpha-Stable Autoregressive Fast Multichannel Nonnegative Matrix Factorization for Joint Speech Enhancement and Dereverberation},
-    booktitle = {Proceedings of Interspeech},
+    booktitle = {Proceedings of Annual Conference of the International Speech Communication
+Association (Interspeech)},
     year      = {2021},
     month     = aug,
     pages     = {661--665},
@@ -314,7 +340,6 @@
     year      = {2022},
     pages     = {},
     address   = {Belgrade, Serbia},
-    doi       = {},
     notes     = {Accepted},
     abstract  = {This paper introduces a theoretically-rigorous sound source localization (SSL) method based on a robust extension of the classical multiple signal classification (MUSIC) algorithm. The original SSL method estimates the noise eigenvectors and the MUSIC spectrum by computing the spatial covariance matrix of the observed multichannel signal and then detects the peaks from the spectrum. In this work, the covariance matrix is replaced with the positive definite shape matrix originating from the elliptically contoured $\alpha$-stable model, which is more suitable under real noisy high-reverberant conditions. Evaluation on synthetic data shows that the proposed method outperforms baseline methods under such adverse conditions, while it is comparable on real data recorded in a mild acoustic condition.},
 }
@@ -447,6 +472,20 @@
     html      = {https://ieeexplore.ieee.org/document/9414857},
     doi       = {10.1109/ICASSP39728.2021.9414857},
     abstract  = {This paper describes a joint blind source separation and dereverberation method that works adaptively and efficiently in a reverberant noisy environment. The modern approach to blind source separation (BSS) is to formulate a probabilistic model of multichannel mixture signals that consists of a source model representing the time-frequency structures of source spectrograms and a spatial model representing the inter-channel covariance structures of source images. The cutting-edge BSS method in this thread of research is fast multi-channel nonnegative matrix factorization (FastMNMF) that consists of a low-rank source model based on nonnegative matrix factorization (NMF) and a full-rank spatial model based on jointly-diagonalizable spatial covariance matrices. Although FastMNMF is computationally efficient and can deal with both directional sources and diffuse noise simultaneously, its performance is severely degraded in a reverberant environment. To solve this problem, we propose autoregressive FastMNMF (AR-FastMNMF) based on a unified probabilistic model that combines FastMNMF with a blind dereverberation method called weighted prediction error (WPE), where all the parameters are optimized jointly such that the likelihood for observed reverberant mixture signals is maximized. Experimental results showed the superiority of AR-FastMNMF over conventional methods that perform blind dereverberation and BSS jointly or sequentially.},
+}
+
+@inproceedings{sekiguchi2022directionaware,
+    abbr      = {IROS},
+    bibtex_show = {true},
+    author    = {Sekiguchi, Kouhei and Nugraha, Aditya Arie and Du, Yicheng and Bando, Yoshiaki and Fontaine, Mathieu and Yoshii, Kazuyoshi},
+    title     = {Direction-Aware Adaptive Online Neural Speech Enhancement with an Augmented Reality Headset in Real Noisy Conversational Environments},
+    booktitle = {Proceedings of IEEE/RSJ International Conference on Intelligent
+Robots and Systems (IROS)},
+    year      = {2022},
+    month     = oct,
+    pages     = {},
+    address   = {Kyoto, Japan},
+    notes     = {Accepted}
 }
 
 @InProceedings{sivasankaran2015asru,
