@@ -190,8 +190,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Nugraha
-  first_name: [Aditya Arie, A. A.]
+  last_name: "Nugraha"
+  first_name: ["Aditya Arie", "A. A."]
 
   style: ieee-with-url
   locale: en
