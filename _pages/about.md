@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   address: >
     <p><small>Kyoto University Artificial Intelligence Research Unit,</small></p>
-    <p><small>Research Building No. 15,</small></p>
-    <p><small>Room No. 102,</small></p>
+    <p><small>Dr. Ichikawa Commemorative Laboratory, Room #202,</small></p>
     <p><small>Yoshida-honmachi, Sakyo-ku, Kyoto, 606-8501 JAPAN</small></p>
 
 education: false

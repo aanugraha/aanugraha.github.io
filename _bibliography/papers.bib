@@ -234,6 +234,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INPROCEEDINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+@INPROCEEDINGS{ali23semisupdoa,
+    abbr     = {ICASSP},
+    bibtex_show = {true},
+    author    = {Ali, Murtiza and Nugraha, Aditya Arie and Nathwani, Karan},
+    title     = {Exploiting Sparse Recovery Algorithms for Semi-Supervised Training of Deep Neural Networks for Direction-of-Arrival Estimation}, 
+    booktitle = {Proceedings of IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+    month     = jun,
+    year      = {2023},
+    pages     = {1--5},
+    address   = {Rhodes Island, Greece},
+    url       = {https://ieeexplore.ieee.org/document/10095717},
+    html      = {https://ieeexplore.ieee.org/document/10095717},
+    doi       = {10.1109/ICASSP49357.2023.10095717},
+    abstract  = {This paper proposes a semi-supervised training approach for a direction-of-arrival (DoA) estimation based on a convolutional neural network (CNN). We apply a sparse recovery algorithm called optMGD-ℓ1-SVD on the training dataset consisting of only unlabeled observed data to obtain binarized pseudo-spectra regarded as the CNN training targets (labels). The estimated DoAs are obtained at test time by performing peak picking on the CNN outputs. optMGD-ℓ1-SVD has been shown to perform well with a few sensors under low signal-to-noise ratio (SNR) conditions (up to −6 dB) by optimally reweighting the pseudo-spectra of ℓ1-SVD based on the application of group delay function on the pseudo-spectra of MUSIC. Since its hyperparameters are noise-sensitive, we assume that the SNR levels of the training dataset are known such that we can use the optimal ones. We also consider multi-condition training using data of multiple SNR levels to improve the robustness towards different noisy environments. We evaluated the trained networks, named optMGD-ℓ1-SVD-CNN and MGD-ℓ1-SVD-CNN, in terms of the average root-mean-square error and the resolution probability under low SNR conditions (up to −20 dB). We demonstrated that it performed well with a few sensors and snapshots, including at SNR levels unseen in the training data.},
+}
+
 @InProceedings{chau19roman,
     abbr     = {RO-MAN},
     bibtex_show = {true},
