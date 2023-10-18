@@ -1,0 +1,15 @@
+{
+"input_si_sdr": -6.43716025352478,
+"input_sdr": -3.5718401126818504,
+"input_sir": 0.053569741470145066,
+"input_sar": 1.8890763170777913,
+"input_pesq": 1.386423110961914,
+"input_stoi": 0.5826898513468053,
+"si_sdr": 5.271619558334351,
+"sdr": 6.954177063451656,
+"sir": 23.42033426892176,
+"sar": 7.085340021505687,
+"pesq": 1.8897881507873535,
+"stoi": 0.8389050729476419,
+"mix_path": "/hss/gsound/exp/arie/projects/asteroid/egs/whamr/TasNet/tmp/whamr_scripts/tmp/wav8k/min/tt/mix_both_reverb/22ho010x_0.66464_052c010z_-0.66464.wav"
+}

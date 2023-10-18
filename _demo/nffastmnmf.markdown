@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NF-FastMNMF
-description: 'A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based Fast Multichannel Nonnegative Matrix Factorization for Blind Source Separation," in Proc. IEEE Int. Conf. Acoust., Speech, Signal Process., 2022.'
+description: 'A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based Fast Multichannel Nonnegative Matrix Factorization for Blind Source Separation," in Proc. IEEE Int. Conf. Acoust., Speech, Signal Process., Singapore, Singapore, 2022, pp. 501-505.'
 img: assets/img/demo/featured_nffastmnmf.png
 importance: -6
 category: work
@@ -17,7 +17,7 @@ This paper describes a blind source separation method for multichannel audio sig
 
 ### Reference
 
-A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based Fast Multichannel Nonnegative Matrix Factorization for Blind Source Separation," in _Proc. IEEE Int. Conf. Acoust., Speech, Signal Process._, 2022.
+A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based Fast Multichannel Nonnegative Matrix Factorization for Blind Source Separation," in _Proc. IEEE Int. Conf. Acoust., Speech, Signal Process._, Singapore, Singapore, 2022, pp. 501-505, doi: [10.1109/ICASSP43922.2022.9747718](https://doi.org/10.1109/ICASSP43922.2022.9747718).
 
 ---
 
