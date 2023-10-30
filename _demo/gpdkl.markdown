@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Time-Domain Audio Source Separation Based on Gaussian Processes with Deep Kernel Learning
-description: 'A. A. Nugraha, D. Di Carlo, Y. Bando, M. Fontaine, and K. Yoshii, "Time-Domain Audio Source Separation Based on Gaussian Processes with Deep Kernel Learning," in Proc. IEEE Workshop Appl. Signal Process. Audio Acoust., New Paltz, NY, USA, 2023.'
+description: 'A. A. Nugraha, D. Di Carlo, Y. Bando, M. Fontaine, and K. Yoshii, "Time-Domain Audio Source Separation Based on Gaussian Processes with Deep Kernel Learning," in Proc. IEEE Workshop Appl. Signal Process. Audio Acoust., New Paltz, NY, USA, 2023, pp. 1-5.'
 img: assets/img/demo/featured_gpdkl.png
-importance: -7
+importance: -8
 category: work
 ---
 

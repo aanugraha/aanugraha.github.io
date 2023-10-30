@@ -6,6 +6,10 @@
   - firstname: ["Jon", "Jon P.", "J.", "J. P."]
     url: http://staffwww.dcs.shef.ac.uk/people/J.Barker/
 
+"Di Carlo":
+  - firstname: ["Diego", "D."]
+    url: http://diegodicarlo.com/
+
 "Fontaine":
   - firstname: ["Mathieu", "M."]
     url: https://matfontaine.github.io/

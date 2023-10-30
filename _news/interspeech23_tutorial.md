@@ -16,3 +16,12 @@ This tutorial aims to enlighten audio and speech researchers who are interested 
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/interspeech_tutorial.jpg" data-zoomable>
     </div>
 </div>
+
+<hr>
+
+In this tutorial, I presented adaptive speech enhancement systems with augmented reality (AR) smart glasses.
+The following is one of the demo videos.
+
+<div class="embed-responsive embed-responsive-16by9 mt-3">
+  <iframe class="embed-responsive-item img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/jQE8NE9Y3wg?autoplay=0&origin=https://aanugraha.github.io/"></iframe>
+</div>
