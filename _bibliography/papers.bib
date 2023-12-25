@@ -250,6 +250,23 @@
     abstract  = {This paper proposes a semi-supervised training approach for a direction-of-arrival (DoA) estimation based on a convolutional neural network (CNN). We apply a sparse recovery algorithm called optMGD-ℓ1-SVD on the training dataset consisting of only unlabeled observed data to obtain binarized pseudo-spectra regarded as the CNN training targets (labels). The estimated DoAs are obtained at test time by performing peak picking on the CNN outputs. optMGD-ℓ1-SVD has been shown to perform well with a few sensors under low signal-to-noise ratio (SNR) conditions (up to −6 dB) by optimally reweighting the pseudo-spectra of ℓ1-SVD based on the application of group delay function on the pseudo-spectra of MUSIC. Since its hyperparameters are noise-sensitive, we assume that the SNR levels of the training dataset are known such that we can use the optimal ones. We also consider multi-condition training using data of multiple SNR levels to improve the robustness towards different noisy environments. We evaluated the trained networks, named optMGD-ℓ1-SVD-CNN and MGD-ℓ1-SVD-CNN, in terms of the average root-mean-square error and the resolution probability under low SNR conditions (up to −20 dB). We demonstrated that it performed well with a few sensors and snapshots, including at SNR levels unseen in the training data.},
 }
 
+@INPROCEEDINGS{bando23neuralfastfca,
+    abbr      = {EUSIPCO},
+    bibtex_show = {true}, 
+    author    = {Bando, Yoshiaki and Masuyama, Yoshiki and Nugraha, Aditya Arie and Yoshii, Kazuyoshi},
+    title     = {Neural Fast Full-Rank Spatial Covariance Analysis for Blind Source Separation}, 
+    booktitle = {Proceedings of European Signal Processing Conference (EUSIPCO)}, 
+    year      = {2023},
+    month     = sep,
+    pages     = {51--55},
+    address   = {Helsinki, Finland},
+    url       = {https://ieeexplore.ieee.org/document/10289974},
+    html      = {https://ieeexplore.ieee.org/document/10289974},
+    preprint  = {https://arxiv.org/abs/2306.10240},
+    doi       = {10.23919/EUSIPCO58844.2023.10289974},
+    abstract  = {This paper describes an efficient unsupervised learning method for a neural source separation model that utilizes a probabilistic generative model of observed multichannel mixtures proposed for blind source separation (BSS). For this purpose, amortized variational inference (AVI) has been used for directly solving the inverse problem of BSS with full-rank spatial covariance analysis (FCA). Although this unsupervised technique called neural FCA is in principle free from the domain mismatch problem, it is computationally demanding due to the full rankness of the spatial model in exchange for robustness against relatively short reverberations. To reduce the model complexity without sacrificing performance, we propose neural FastFCA based on the jointly-diagonalizable yet full-rank spatial model. Our neural separation model introduced for AVI alternately performs neural network blocks and single steps of an efficient iterative algorithm called iterative source steering. This alternating architecture enables the separation model to quickly separate the mixture spectrogram by leveraging both the deep neural network and the multichannel optimization algorithm. The training objective with AVI is derived to maximize the marginalized likelihood of the observed mixtures. The experiment using mixture signals of two to four sound sources shows that neural FastFCA outperforms conventional BSS methods and reduces the computational time to about 2 % of that for the neural FCA.},
+}
+
 @InProceedings{chau19roman,
     abbr     = {RO-MAN},
     bibtex_show = {true},
