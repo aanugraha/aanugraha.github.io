@@ -3,7 +3,7 @@
 
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="refresh" content="3; url=https://aanugraha.github.io/">
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,7 @@
   Aditya Arie Nugraha
 
 
-  | Page not found
+  | Adaptive Online Neural Speech Enhancement with Augmented Reality Smart Glasses
 
 </title>
 <meta name="description" content="">
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%94%A5&lt;/text&gt;&lt;/svg&gt;">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://aanugraha.github.io/404.html">
+<link rel="canonical" href="https://aanugraha.github.io/demo/iros22/">
 
 
 <!-- Dark Mode -->
@@ -164,12 +164,28 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Adaptive Online Neural Speech Enhancement with Augmented Reality Smart Glasses</h1>
+    <p class="post-description">K. Sekiguchi, A. A. Nugraha, Y. Du, Y. Bando, M. Fontaine, and K. Yoshii, "Time-Domain Audio Source Separation Based on Gaussian Processes with Deep Kernel Learning," in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst., Kyoto, Japan, 2022, pp. 9266-9273.</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://aanugraha.github.io/">here</a>.</p>
+    <h3 id="abstract">Abstract</h3>
+
+<p>This paper describes the practical response- and performance-aware development of online speech enhancement for an augmented reality (AR) headset that helps a user understand conversations made in real noisy echoic environments (e.g., cocktail party). One may use a state-of-the-art blind source separation method called fast multichannel nonnegative matrix factorization (FastMNMF) that works well in various environments thanks to its unsupervised nature. Its heavy computational cost, however, prevents its application to real-time processing. In contrast, a supervised beamforming method that uses a deep neural network (DNN) for estimating spatial information of speech and noise readily fits real-time processing, but suffers from drastic performance degradation in mismatched conditions. Given such complementary characteristics, we propose a dual-process robust online speech enhancement method based on DNN-based beamforming with FastMNMF-guided adaptation. FastMNMF (back end) is performed in a mini-batch style and the noisy and enhanced speech pairs are used together with the original parallel training data for updating the direction-aware DNN (front end) with backpropagation at a computationally-allowable interval. This method is used with a blind dereverberation method called weighted prediction error (WPE) for transcribing the noisy reverberant speech of a speaker, which can be detected from video or selected by a user’s hand gesture or eye gaze, in a streaming manner and spatially showing the transcriptions with an AR technique. Our experiment showed that the word error rate was improved by more than 10 points with the run-time adaptation using only twelve minutes observation.</p>
+
+<hr>
+
+<h3 id="reference">Reference</h3>
+
+<p>K. Sekiguchi, A. A. Nugraha, Y. Du, Y. Bando, M. Fontaine, and K. Yoshii, “Time-Domain Audio Source Separation Based on Gaussian Processes with Deep Kernel Learning,” in <em>Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst.</em>, Kyoto, Japan, 2022, pp. 9266-9273, doi: <a href="https://doi.org/10.1109/IROS47612.2022.9981659" target="_blank" rel="noopener noreferrer">10.1109/IROS47612.2022.9981659</a>.</p>
+
+<hr>
+
+<h3 id="demo-video">Demo Video</h3>
+
+<div class="embed-responsive embed-responsive-16by9 mt-3">
+  <iframe class="embed-responsive-item img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/V3-xeyXmBMs?autoplay=0&origin=https://aanugraha.github.io/"></iframe>
+</div>
 
   </article>
 
