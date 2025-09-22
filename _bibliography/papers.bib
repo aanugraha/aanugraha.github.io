@@ -302,6 +302,21 @@
     abstract  = {We address the problem of accurately interpolating measured anechoic steering vectors with a deep learning framework called the neural field. This task plays a pivotal role in reducing the resource-intensive measurements required for precise sound source separation and localization, essential as the front-end of speech recognition. Classical approaches to interpolation rely on linear weighting of nearby measurements in space on a fixed, discrete set of frequencies. Drawing inspiration from the success of neural fields for novel view synthesis in computer vision, we introduce the neural steerer, a continuous complex-valued function that takes both frequency and direction as input and produces the corresponding steering vector. Importantly, it incorporates inter-channel phase difference information and a regularization term enforcing filter causality, essential for accurate steering vector modeling. Our experiments, conducted using a dataset of real measured steering vectors, demonstrate the effectiveness of our resolution-free model in interpolating such measurements.},
 }
 
+@INPROCEEDINGS{dicarlo2025shamans,
+    abbr      = {EUSIPCO},
+    bibtex_show = {true}, 
+    author    = {Di Carlo, Diego and Mathieu Fontaine and Aditya Arie Nugraha and Yoshiaki Bando and Kazuyoshi Yoshii},
+    title     = {SHAMaNS: Sound Localization with Hybrid Alpha-Stable Spatial Measure and Neural Steerer}, 
+    booktitle = {Proceedings of European Signal Processing Conference (EUSIPCO)}, 
+    year      = {2025},
+    month     = sep,
+    pages     = {216--220},
+    address   = {Palermo, Italy},
+    preprint  = {https://arxiv.org/abs/2506.18954},
+    pdf       = {https://eusipco2025.org/wp-content/uploads/pdfs/0000216.pdf},
+    abstract  = {This paper describes a sound source localization (SSL) technique that combines an α-stable model for the observed signal with a neural network-based approach for modeling steering vectors. Specifically, a physics-informed neural network, referred to as Neural Steerer, is used to interpolate measured steering vectors (SVs) on a fixed microphone array. This allows for a more robust estimation of the so-called α-stable spatial measure, which represents the most plausible direction of arrival (DOA) of a target signal. As an α-stable model for the non-Gaussian case (α ∈ (0, 2)) theoretically defines a unique spatial measure, we choose to leverage it to account for residual reconstruction error of the Neural Steerer in the downstream tasks. The objective scores indicate that our proposed technique outperforms state-of-the-art methods in the case of multiple sound sources.},
+}
+
 @INPROCEEDINGS{du2020phonespeakeraware,
     abbr     = {EUSIPCO},
     bibtex_show = {true},
@@ -332,7 +347,7 @@ Association (Interspeech)},
     address   = {Incheon, South Korea},
     url       = {https://www.isca-speech.org/archive/interspeech_2022/du22d_interspeech.html},
     html      = {https://www.isca-speech.org/archive/interspeech_2022/du22d_interspeech.html},
-    pdf       = {https://www.isca-speech.org/archive/pdfs/interspeech_2022/du22d_interspeech.pdf},
+    pdf       = {https://www.isca-archive.org/interspeech_2022/du22d_interspeech.pdf},
     doi       = {10.21437/Interspeech.2022-10508},
     abstract  = {This paper describes noisy speech recognition for an augmented reality headset that helps verbal communication with in real multiparty conversational environments. A major approach that has actively been studied in simulated environments is to sequentially perform speech enhancement and automatic speech recognition (ASR) based on deep neural networks (DNNs) trained in a supervised manner. In our task, however, such a pretrained system fails to work due to the mismatch between the training and test conditions and the head movements of the user. To enhance only the utterances of a target speaker, we use beamforming based on a DNN-based speech mask estimator that can adaptively extract the speech components corresponding to a head-relative particular direction. We propose a semi-supervised adaptation method that jointly updates the mask estimator and the ASR model at run-time using clean speech signals with ground-truth transcriptions and noisy speech signals with highly-confident estimated transcriptions. Comparative experiments using the state-of-the-art distant speech recognition system show that the proposed method significantly improves the ASR performance.},
 }
@@ -404,6 +419,7 @@ Association (Interspeech)},
     url       = {https://ieeexplore.ieee.org/document/9909944},
     html      = {https://ieeexplore.ieee.org/document/9909944},
     pdf       = {https://eurasip.org/Proceedings/Eusipco/Eusipco2022/pdfs/0000026.pdf},
+    doi       = {10.23919/EUSIPCO55093.2022.9909944},
     abstract  = {This paper introduces a theoretically-rigorous sound source localization (SSL) method based on a robust extension of the classical multiple signal classification (MUSIC) algorithm. The original SSL method estimates the noise eigenvectors and the MUSIC spectrum by computing the spatial covariance matrix of the observed multichannel signal and then detects the peaks from the spectrum. In this work, the covariance matrix is replaced with the positive definite shape matrix originating from the elliptically contoured $\alpha$-stable model, which is more suitable under real noisy high-reverberant conditions. Evaluation on synthetic data shows that the proposed method outperforms baseline methods under such adverse conditions, while it is comparable on real data recorded in a mild acoustic condition.},
 }
 
@@ -420,6 +436,7 @@ Association (Interspeech)},
     url       = {https://ieeexplore.ieee.org/document/10849318},
     html      = {https://ieeexplore.ieee.org/document/10849318},
     preprint  = {https://arxiv.org/abs/2410.22805},
+    doi       = {10.1109/APSIPAASC63619.2025.10849318},
     abstract  = {This paper describes speech enhancement for realtime automatic speech recognition (ASR) in real environments. A standard approach to this task is to use neural beamforming that can work efficiently in an online manner. It estimates the masks of clean dry speech from a noisy echoic mixture spectrogram with a deep neural network (DNN) and then computes a enhancement filter used for beamforming. The performance of such a supervised approach, however, is drastically degraded under mismatched conditions. This calls for run-time adaptation of the DNN. Although the ground-truth speech spectrogram required for adaptation is not available at run time, blind dereverberation and separation methods such as weighted prediction error (WPE) and fast multichannel nonnegative matrix factorization (FastMNMF) can be used for generating pseudo groundtruth data from a mixture. Based on this idea, a prior work proposed a dual-process system based on a cascade of WPE and minimum variance distortionless response (MVDR) beamforming asynchronously fine-tuned by block-online FastMNMF. To integrate the dereverberation capability into neural beamforming and make it fine-tunable at run time, we propose to use weighted power minimization distortionless response (WPD) beamforming, a unified version of WPE and minimum power distortionless response (MPDR), whose joint dereverberation and denoising filter is estimated using a DNN. We evaluated the impact of run-time adaptation under various conditions with different numbers of speakers, reverberation times, and signal-to-noise ratios (SNRs).},
 }
 
