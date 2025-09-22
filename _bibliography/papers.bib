@@ -299,6 +299,7 @@
     html      = {https://ieeexplore.ieee.org/document/10626510},
     preprint  = {https://arxiv.org/abs/2305.04447},
     doi       = {10.1109/ICASSPW62465.2024.10626510},
+    code      = {https://github.com/Chutlhu/nsteerer},
     abstract  = {We address the problem of accurately interpolating measured anechoic steering vectors with a deep learning framework called the neural field. This task plays a pivotal role in reducing the resource-intensive measurements required for precise sound source separation and localization, essential as the front-end of speech recognition. Classical approaches to interpolation rely on linear weighting of nearby measurements in space on a fixed, discrete set of frequencies. Drawing inspiration from the success of neural fields for novel view synthesis in computer vision, we introduce the neural steerer, a continuous complex-valued function that takes both frequency and direction as input and produces the corresponding steering vector. Importantly, it incorporates inter-channel phase difference information and a regularization term enforcing filter causality, essential for accurate steering vector modeling. Our experiments, conducted using a dataset of real measured steering vectors, demonstrate the effectiveness of our resolution-free model in interpolating such measurements.},
 }
 
@@ -314,6 +315,7 @@
     address   = {Palermo, Italy},
     preprint  = {https://arxiv.org/abs/2506.18954},
     pdf       = {https://eusipco2025.org/wp-content/uploads/pdfs/0000216.pdf},
+    code      = {https://github.com/chutlhu/shamans},
     abstract  = {This paper describes a sound source localization (SSL) technique that combines an α-stable model for the observed signal with a neural network-based approach for modeling steering vectors. Specifically, a physics-informed neural network, referred to as Neural Steerer, is used to interpolate measured steering vectors (SVs) on a fixed microphone array. This allows for a more robust estimation of the so-called α-stable spatial measure, which represents the most plausible direction of arrival (DOA) of a target signal. As an α-stable model for the non-Gaussian case (α ∈ (0, 2)) theoretically defines a unique spatial measure, we choose to leverage it to account for residual reconstruction error of the Neural Steerer in the downstream tasks. The objective scores indicate that our proposed technique outperforms state-of-the-art methods in the case of multiple sound sources.},
 }
 
@@ -472,6 +474,7 @@ Association (Interspeech)},
     pdf       = {https://www.isca-archive.org/interspeech_2024/kelley24_interspeech.pdf},
     preprint  = {https://telecom-paris.hal.science/hal-04632526},
     doi       = {10.21437/Interspeech.2024-2053},
+    code      = {https://github.com/liam-kelley/RIR-in-a-Box},
     abstract  = {This paper describes a method for estimating the room impulse response (RIR) for a microphone and a sound source located at arbitrary positions from the 3D mesh data of the room. Simulating realistic RIRs with pure physics-driven methods often fails the balance between physical consistency and computational efficiency, hindering application to real time speech processing. Alternatively, one can use MESH2IR, a fast black-box estimator that consists of an encoder extracting latent code from mesh data with a graph convolutional network (GCN) and a decoder generating the RIR from the latent code. Combining these two approaches, we propose a fast yet physically coherent estimator with interpretable latent code based on differentiable digital signal processing (DDSP). Specifically, the encoder estimates a virtual shoebox room scene that acoustically approximates the real scene, accelerating physical simulation with the differentiable image-source model in the decoder. Our experiments showed that our method outperformed MESH2IR for real mesh data obtained with the depth scanner of Microsoft HoloLens 2, and can provide correct spatial consistency for binaural RIRs.},
 }
 
@@ -604,7 +607,7 @@ Association (Interspeech)},
     url       = {https://ieeexplore.ieee.org/document/8902557},
     html      = {https://ieeexplore.ieee.org/document/8902557},
     preprint  = {https://arxiv.org/abs/1903.03237},
-    code      = {https://github.com/sekiguchi92/eusipc19},
+    code      = {https://github.com/sekiguchi92/eusipco2019},
     doi       = {10.23919/EUSIPCO.2019.8902557},
     abstract  = {This paper describes a versatile method that accelerates multichannel source separation methods based on full-rank spatial modeling. A popular approach to multichannel source separation is to integrate a spatial model with a source model for estimating the spatial covariance matrices (SCMs) and power spectral densities (PSDs) of each sound source in the time-frequency domain. One of the most successful examples of this approach is multichannel nonnegative matrix factorization (MNMF) based on a full-rank spatial model and a low-rank source model. MNMF, however, is computationally expensive and often works poorly due to the difficulty of estimating the unconstrained full-rank SCMs. Instead of restricting the SCMs to rank-1 matrices with the severe loss of the spatial modeling ability as in independent low-rank matrix analysis (ILRMA), we restrict the SCMs of each frequency bin to jointly-diagonalizable but still full-rank matrices. For such a fast version of MNMF, we propose a computationally-efficient and convergence-guaranteed algorithm that is similar in form to that of ILRMA. Similarly, we propose a fast version of a state-of-the-art speech enhancement method based on a deep speech model and a low-rank noise model. Experimental results showed that the fast versions of MNMF and the deep speech enhancement method were several times faster and performed even better than the original versions of those methods, respectively.},
 }
