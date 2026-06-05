@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(set -e)",
+      "Bash(git rm *)",
+      "Bash(convert -version)",
+      "Bash(JEKYLL_ENV=production bundle exec jekyll build)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}

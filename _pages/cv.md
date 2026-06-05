@@ -1,11 +1,18 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
-title: cv
+title: curriculum vitae
+description:
 nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav_order: 4
 ---
+
+<div class="cv">
+  <article>
+    {% include education.html %}
+
+    {% include work_experience.html %}
+
+    {% include awards.html %}
+  </article>
+</div>
