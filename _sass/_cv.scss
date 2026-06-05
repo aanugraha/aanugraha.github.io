@@ -2,6 +2,31 @@
  * CV shared styles
  *****************************/
 
+// Theme-aware styling for the custom education / work-experience / awards
+// tables on the /cv/ page (carried over from the previous site). Bootstrap's
+// default table color is not theme-aware, so force the global text color.
+.education {
+  margin-top: 1rem;
+
+  table {
+    background-color: transparent;
+
+    td,
+    th {
+      font-size: 1rem;
+      color: var(--global-text-color);
+    }
+
+    a {
+      color: var(--global-theme-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
 div.container-link-button {
   margin-right: 0.5rem;
 }
