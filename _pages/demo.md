@@ -6,7 +6,7 @@ description: Demo pages and supplementary materials accompanying selected public
 nav: true
 nav_order: 3
 display_categories: []
-horizontal: true
+horizontal: false
 ---
 
 <!-- _pages/demo.md -->
