@@ -31,6 +31,14 @@
   }
 }
 
+// Caveat shown under the 2 kHz input audio in the demo tables. Theme-aware
+// so it stays legible in dark mode (the old inline color: #666 did not).
+.audio-note {
+  font-size: 0.85em;
+  color: var(--global-text-color-light);
+  margin-top: 4px;
+}
+
 // Theme-aware styling for the custom education / work-experience / awards
 // tables on the /cv/ page (carried over from the previous site). Bootstrap's
 // default table color is not theme-aware, so force the global text color.

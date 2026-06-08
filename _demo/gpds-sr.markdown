@@ -63,10 +63,10 @@ Utterance: "These take the shape of a long round arch, with its path high above,
     </tr>
     <tr>
         <td></td>
-        <td markdown="span">
-            <div style="font-size: 0.85em; color: #666; margin-top: 4px;">
+        <td>
+            <div class="audio-note">
                 2 kHz WAV playback may fail in some browsers.
-                <a href="./audio/2000_16000/2000_16000_s5_008_mic1_input.wav" download>Download raw 2 kHz WAV</a>.
+                <a href="./audio/2000_16000/2000_16000_p361_008_mic1_input.wav" download>Download raw 2 kHz WAV</a>.
             </div>
         </td>
     </tr>
@@ -192,10 +192,10 @@ Utterance: "These take the shape of a long round arch, with its path high above,
     </tr>
     <tr>
         <td></td>
-        <td markdown="span">
-            <div style="font-size: 0.85em; color: #666; margin-top: 4px;">
+        <td>
+            <div class="audio-note">
                 2 kHz WAV playback may fail in some browsers.
-                <a href="./audio/2000_16000/2000_16000_s5_008_mic1_input.wav" download>Download raw 2 kHz WAV</a>.
+                <a href="./audio/2000_16000/2000_16000_p374_008_mic1_input.wav" download>Download raw 2 kHz WAV</a>.
             </div>
         </td>
     </tr>
@@ -321,10 +321,10 @@ Utterance: "These take the shape of a long round arch, with its path high above,
     </tr>
     <tr>
         <td></td>
-        <td markdown="span">
-            <div style="font-size: 0.85em; color: #666; margin-top: 4px;">
+        <td>
+            <div class="audio-note">
                 2 kHz WAV playback may fail in some browsers.
-                <a href="./audio/2000_16000/2000_16000_s5_008_mic1_input.wav" download>Download raw 2 kHz WAV</a>.
+                <a href="./audio/2000_16000/2000_16000_p376_008_mic1_input.wav" download>Download raw 2 kHz WAV</a>.
             </div>
         </td>
     </tr>
@@ -450,8 +450,8 @@ Utterance: "These take the shape of a long round arch, with its path high above,
     </tr>
     <tr>
         <td></td>
-        <td markdown="span">
-            <div style="font-size: 0.85em; color: #666; margin-top: 4px;">
+        <td>
+            <div class="audio-note">
                 2 kHz WAV playback may fail in some browsers.
                 <a href="./audio/2000_16000/2000_16000_s5_008_mic1_input.wav" download>Download raw 2 kHz WAV</a>.
             </div>
