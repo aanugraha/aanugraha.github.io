@@ -1,8 +1,8 @@
 ---
 layout: post
-title: We proudly showcased our AV-SUARA system during a live demonstration at the IPSJ Otogaku Symposium 2025 at Waseda University.
+title: "AV-SUARA Goes Live: Augmented Listening at the IPSJ Otogaku Symposium 2025"
 date: 2025-06-13 13:00:00+0900
-inline: False
+inline: false
 ---
 
 We successfully conducted a live demonstration of our Audio-Visual Scene Understanding for Augmented Reality Applications (AV-SUARA) system at the IPSJ Otogaku Symposium 2025, held at Waseda University. 
