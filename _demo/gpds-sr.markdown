@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sampling-Rate-Agnostic Speech Super-Resolution Based on Gaussian Process Dynamical Systems With Deep Kernel Learning
-description: 'A. A. Nugraha, D. Di Carlo, Y. Bando, M. Fontaine, and K. Yoshii, "Sampling-Rate-Agnostic Speech Super-Resolution Based on Gaussian Process Dynamical Systems With Deep Kernel Learning," 2025, under review.'
+description: 'A. A. Nugraha, D. Di Carlo, Y. Bando, M. Fontaine, and K. Yoshii, "Sampling-Rate-Agnostic Speech Super-Resolution Based on Gaussian Process Dynamical Systems With Deep Kernel Learning," in Proc. IEEE Int. Conf. Acoust., Speech, Signal Process., Barcelona, Spain, 2026, pp. 15442-15446.'
 img: assets/img/demo/featured_gpds-sr.png
 importance: -9
 category: work
@@ -17,7 +17,7 @@ This paper describes genuine audio super-resolution (SR) that aims to estimate a
 
 ### Reference
 
-A. A. Nugraha, D. Di Carlo, Y. Bando, M. Fontaine, and K. Yoshii, "Sampling-Rate-Agnostic Speech Super-Resolution Based on Gaussian Process Dynamical Systems With Deep Kernel Learning," 2025, under review.
+A. A. Nugraha, D. Di Carlo, Y. Bando, M. Fontaine, and K. Yoshii, "Sampling-Rate-Agnostic Speech Super-Resolution Based on Gaussian Process Dynamical Systems With Deep Kernel Learning," in Proc. IEEE Int. Conf. Acoust., Speech, Signal Process., Barcelona, Spain, 2026, pp. 15442-15446.
 
 ---
 
