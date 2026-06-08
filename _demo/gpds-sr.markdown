@@ -3,7 +3,7 @@ layout: page
 title: Sampling-Rate-Agnostic Speech Super-Resolution Based on Gaussian Process Dynamical Systems With Deep Kernel Learning
 description: 'A. A. Nugraha, D. Di Carlo, Y. Bando, M. Fontaine, and K. Yoshii, "Sampling-Rate-Agnostic Speech Super-Resolution Based on Gaussian Process Dynamical Systems With Deep Kernel Learning," 2025, under review.'
 img: assets/img/demo/featured_gpds-sr.png
-importance: 1
+importance: -9
 category: work
 ---
 
@@ -40,10 +40,10 @@ Utterance: "These take the shape of a long round arch, with its path high above,
 </colgroup>
 <thead>
     <tr class="header">
-        <th>**Target (16 kHz)**</th>
-        <th>**Input (2 kHz)**</th>
-        <th>**Input (4 kHz)**</th>
-        <th>**Input (8 kHz)**</th>
+        <th><strong>Target (16 kHz)</strong></th>
+        <th><strong>Input (2 kHz)</strong></th>
+        <th><strong>Input (4 kHz)</strong></th>
+        <th><strong>Input (8 kHz)</strong></th>
     </tr>
 </thead>
 <tbody>
@@ -84,15 +84,15 @@ Utterance: "These take the shape of a long round arch, with its path high above,
 </colgroup>
 <thead>
     <tr class="header">
-        <th>**Methods**</th>
-        <th>**Estimate (2->16 kHz)**</th>
-        <th>**Estimate (4->16 kHz)**</th>
-        <th>**Estimate (8->16 kHz)**</th>
+        <th><strong>Methods</strong></th>
+        <th><strong>Estimate (2->16 kHz)</strong></th>
+        <th><strong>Estimate (4->16 kHz)</strong></th>
+        <th><strong>Estimate (8->16 kHz)</strong></th>
     </tr>
 </thead>
 <tbody>
     <tr>
-        <td>**Cubic spline interpolation**</td>
+        <td><strong>Cubic spline interpolation</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p361_008_mic1_cubicspline.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -104,7 +104,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**Polyphase resampling**</td>
+        <td><strong>Polyphase resampling</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p361_008_mic1_polyphase.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -116,7 +116,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**NU-Wave2**</td>
+        <td><strong>NU-Wave2</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p361_008_mic1_nuwave2.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -128,7 +128,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**UDM+**</td>
+        <td><strong>UDM+</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p361_008_mic1_udm_stft_mp.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -140,7 +140,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**GPDS-SR**</td>
+        <td><strong>GPDS-SR</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p361_008_mic1_gpds-sr.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -169,10 +169,10 @@ Utterance: "These take the shape of a long round arch, with its path high above,
 </colgroup>
 <thead>
     <tr class="header">
-        <th>**Target (16 kHz)**</th>
-        <th>**Input (2 kHz)**</th>
-        <th>**Input (4 kHz)**</th>
-        <th>**Input (8 kHz)**</th>
+        <th><strong>Target (16 kHz)</strong></th>
+        <th><strong>Input (2 kHz)</strong></th>
+        <th><strong>Input (4 kHz)</strong></th>
+        <th><strong>Input (8 kHz)</strong></th>
     </tr>
 </thead>
 <tbody>
@@ -213,15 +213,15 @@ Utterance: "These take the shape of a long round arch, with its path high above,
 </colgroup>
 <thead>
     <tr class="header">
-        <th>**Methods**</th>
-        <th>**Estimate (2->16 kHz)**</th>
-        <th>**Estimate (4->16 kHz)**</th>
-        <th>**Estimate (8->16 kHz)**</th>
+        <th><strong>Methods</strong></th>
+        <th><strong>Estimate (2->16 kHz)</strong></th>
+        <th><strong>Estimate (4->16 kHz)</strong></th>
+        <th><strong>Estimate (8->16 kHz)</strong></th>
     </tr>
 </thead>
 <tbody>
     <tr>
-        <td>**Cubic spline interpolation**</td>
+        <td><strong>Cubic spline interpolation</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p374_008_mic1_cubicspline.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -233,7 +233,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**Polyphase resampling**</td>
+        <td><strong>Polyphase resampling</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p374_008_mic1_polyphase.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -245,7 +245,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**NU-Wave2**</td>
+        <td><strong>NU-Wave2</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p374_008_mic1_nuwave2.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -257,7 +257,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**UDM+**</td>
+        <td><strong>UDM+</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p374_008_mic1_udm_stft_mp.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -269,7 +269,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**GPDS-SR**</td>
+        <td><strong>GPDS-SR</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p374_008_mic1_gpds-sr.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -298,10 +298,10 @@ Utterance: "These take the shape of a long round arch, with its path high above,
 </colgroup>
 <thead>
     <tr class="header">
-        <th>**Target (16 kHz)**</th>
-        <th>**Input (2 kHz)**</th>
-        <th>**Input (4 kHz)**</th>
-        <th>**Input (8 kHz)**</th>
+        <th><strong>Target (16 kHz)</strong></th>
+        <th><strong>Input (2 kHz)</strong></th>
+        <th><strong>Input (4 kHz)</strong></th>
+        <th><strong>Input (8 kHz)</strong></th>
     </tr>
 </thead>
 <tbody>
@@ -342,15 +342,15 @@ Utterance: "These take the shape of a long round arch, with its path high above,
 </colgroup>
 <thead>
     <tr class="header">
-        <th>**Methods**</th>
-        <th>**Estimate (2->16 kHz)**</th>
-        <th>**Estimate (4->16 kHz)**</th>
-        <th>**Estimate (8->16 kHz)**</th>
+        <th><strong>Methods</strong></th>
+        <th><strong>Estimate (2->16 kHz)</strong></th>
+        <th><strong>Estimate (4->16 kHz)</strong></th>
+        <th><strong>Estimate (8->16 kHz)</strong></th>
     </tr>
 </thead>
 <tbody>
     <tr>
-        <td>**Cubic spline interpolation**</td>
+        <td><strong>Cubic spline interpolation</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p376_008_mic1_cubicspline.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -362,7 +362,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**Polyphase resampling**</td>
+        <td><strong>Polyphase resampling</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p376_008_mic1_polyphase.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -374,7 +374,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**NU-Wave2**</td>
+        <td><strong>NU-Wave2</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p376_008_mic1_nuwave2.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -386,7 +386,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**UDM+**</td>
+        <td><strong>UDM+</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p376_008_mic1_udm_stft_mp.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -398,7 +398,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**GPDS-SR**</td>
+        <td><strong>GPDS-SR</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_p376_008_mic1_gpds-sr.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -427,10 +427,10 @@ Utterance: "These take the shape of a long round arch, with its path high above,
 </colgroup>
 <thead>
     <tr class="header">
-        <th>**Target (16 kHz)**</th>
-        <th>**Input (2 kHz)**</th>
-        <th>**Input (4 kHz)**</th>
-        <th>**Input (8 kHz)**</th>
+        <th><strong>Target (16 kHz)</strong></th>
+        <th><strong>Input (2 kHz)</strong></th>
+        <th><strong>Input (4 kHz)</strong></th>
+        <th><strong>Input (8 kHz)</strong></th>
     </tr>
 </thead>
 <tbody>
@@ -471,15 +471,15 @@ Utterance: "These take the shape of a long round arch, with its path high above,
 </colgroup>
 <thead>
     <tr class="header">
-        <th>**Methods**</th>
-        <th>**Estimate (2->16 kHz)**</th>
-        <th>**Estimate (4->16 kHz)**</th>
-        <th>**Estimate (8->16 kHz)**</th>
+        <th><strong>Methods</strong></th>
+        <th><strong>Estimate (2->16 kHz)</strong></th>
+        <th><strong>Estimate (4->16 kHz)</strong></th>
+        <th><strong>Estimate (8->16 kHz)</strong></th>
     </tr>
 </thead>
 <tbody>
     <tr>
-        <td>**Cubic spline interpolation**</td>
+        <td><strong>Cubic spline interpolation</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_s5_008_mic1_cubicspline.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -491,7 +491,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**Polyphase resampling**</td>
+        <td><strong>Polyphase resampling</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_s5_008_mic1_polyphase.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -503,7 +503,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**NU-Wave2**</td>
+        <td><strong>NU-Wave2</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_s5_008_mic1_nuwave2.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -515,7 +515,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**UDM+**</td>
+        <td><strong>UDM+</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_s5_008_mic1_udm_stft_mp.wav" style="width: 95%" controls> </audio> 
         </td>
@@ -527,7 +527,7 @@ Utterance: "These take the shape of a long round arch, with its path high above,
         </td>
     </tr>
     <tr>
-        <td>**GPDS-SR**</td>
+        <td><strong>GPDS-SR</strong></td>
         <td markdown="span">
             <audio class="media" src="./audio/2000_16000/2000_16000_s5_008_mic1_gpds-sr.wav" style="width: 95%" controls> </audio> 
         </td>
