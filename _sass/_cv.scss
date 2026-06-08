@@ -2,19 +2,22 @@
  * CV shared styles
  *****************************/
 
-// IPA pronunciation stacked above the middle name on the about page title.
+// IPA pronunciation floating above the middle name on the about page title.
+// The wrapper stays inline so "Aditya Arie Nugraha" share one baseline; the
+// pronunciation is absolutely positioned above so it doesn't shift the name.
 .name-ipa {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1.05;
-  vertical-align: baseline;
+  position: relative;
+  white-space: nowrap;
 
   .ipa {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
     font-size: 0.42em;
     font-weight: 400;
+    line-height: 1;
     color: var(--global-text-color-light);
-    margin-bottom: 0.05em;
   }
 }
 
