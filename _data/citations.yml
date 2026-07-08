@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-19'
+  last_updated: '2026-07-08'
 papers:
   j40T6joAAAAJ:-_dYPAW6P2MC:
     citations: 0
@@ -54,7 +54,7 @@ papers:
     title: Audio-Visual SLAM towards Human Tracking and Human-Robot Interaction in Indoor Environments
     year: '2019'
   j40T6joAAAAJ:LjlpjdlvIbIC:
-    citations: 476
+    citations: 480
     title: An analysis of environment, microphone and data simulation mismatches in robust speech recognition
     year: '2017'
   j40T6joAAAAJ:LkGwnXOMwfcC:
@@ -70,7 +70,7 @@ papers:
     title: Flow-Based Independent Vector Analysis for Blind Source Separation
     year: '2020'
   j40T6joAAAAJ:PR6Y55bgFSsC:
-    citations: 59
+    citations: 60
     title: Fast multichannel source separation based on jointly diagonalizable spatial covariance matrices
     year: '2019'
   j40T6joAAAAJ:Tyk-4Ss8FVUC:
@@ -110,7 +110,7 @@ papers:
     title: Neural Fast Full-Rank Spatial Covariance Analysis for Blind Source Separation
     year: '2023'
   j40T6joAAAAJ:YsMSGLbcyi4C:
-    citations: 417
+    citations: 422
     title: Multichannel audio source separation with deep neural networks
     year: '2015'
   j40T6joAAAAJ:ZfRJV9d4-WMC:
@@ -122,7 +122,7 @@ papers:
     title: Alpha-stable autoregressive fast multichannel nonnegative matrix factorization for joint speech enhancement and dereverberation
     year: '2021'
   j40T6joAAAAJ:_Ybze24A_UAC:
-    citations: 81
+    citations: 82
     title: Fast Multichannel Nonnegative Matrix Factorization With Directivity-Aware Jointly-Diagonalizable Spatial Covariance Matrices for Blind Source Separation
     year: '2020'
   j40T6joAAAAJ:d1gkVwhDpl0C:
@@ -190,7 +190,7 @@ papers:
     title: Joint Localization and Synchronization of Distributed Camera-Attached Microphone Arrays for Indoor Scene Analysis
     year: '2022'
   j40T6joAAAAJ:uLbwQdceFCQC:
-    citations: 44
+    citations: 46
     title: A Flow-Based Deep Latent Variable Model for Speech Spectrogram Modeling and Enhancement
     year: '2020'
   j40T6joAAAAJ:uWiczbcajpAC:
