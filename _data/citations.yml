@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-07-22'
 papers:
   j40T6joAAAAJ:-_dYPAW6P2MC:
     citations: 0
@@ -54,7 +54,7 @@ papers:
     title: Audio-Visual SLAM towards Human Tracking and Human-Robot Interaction in Indoor Environments
     year: '2019'
   j40T6joAAAAJ:LjlpjdlvIbIC:
-    citations: 480
+    citations: 481
     title: An analysis of environment, microphone and data simulation mismatches in robust speech recognition
     year: '2017'
   j40T6joAAAAJ:LkGwnXOMwfcC:
@@ -78,7 +78,7 @@ papers:
     title: Web Based Multimedia Conference System for Digital Learning in Rural Elementary School
     year: '2010'
   j40T6joAAAAJ:UHK10RUVsp4C:
-    citations: 48
+    citations: 49
     title: Semi-Supervised Multichannel Speech Enhancement With a Deep Speech Prior
     year: '2019'
   j40T6joAAAAJ:URolC5Kub84C:
@@ -170,7 +170,7 @@ papers:
     title: Single Channel Dereverberation by Feature Mapping Using Limited Stereo Data
     year: '2013'
   j40T6joAAAAJ:t7zJ5fGR-2UC:
-    citations: 11
+    citations: 12
     title: Exploiting Sparse Recovery Algorithms for Semi-Supervised Training of Deep Neural Networks for Direction-of-Arrival Estimation
     year: '2023'
   j40T6joAAAAJ:tzM49s52ZIMC:
