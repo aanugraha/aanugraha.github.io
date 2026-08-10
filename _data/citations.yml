@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-29'
+  last_updated: '2026-08-10'
 papers:
   j40T6joAAAAJ:-_dYPAW6P2MC:
     citations: 0
@@ -78,7 +78,7 @@ papers:
     title: Web Based Multimedia Conference System for Digital Learning in Rural Elementary School
     year: '2010'
   j40T6joAAAAJ:UHK10RUVsp4C:
-    citations: 49
+    citations: 50
     title: Semi-Supervised Multichannel Speech Enhancement With a Deep Speech Prior
     year: '2019'
   j40T6joAAAAJ:URolC5Kub84C:
@@ -90,7 +90,7 @@ papers:
     title: Perancangan Sistem Produk-Layanan Komunitas Guru Belajar untuk Sekolah Dasar di Pedesaan
     year: '2010'
   j40T6joAAAAJ:VL0QpB8kHFEC:
-    citations: 16
+    citations: 17
     title: Deep neural network based multichannel audio source separation
     year: '2018'
   j40T6joAAAAJ:W5xh706n7nkC:
@@ -102,7 +102,7 @@ papers:
     title: Performance evaluation of audio-video streaming service in Keerom, Papua using integrated audio-video performance test tool
     year: '2011'
   j40T6joAAAAJ:WqliGbK-hY8C:
-    citations: 109
+    citations: 110
     title: Multichannel music separation with deep neural networks
     year: '2016'
   j40T6joAAAAJ:XD-gHx7UXLsC:
@@ -114,7 +114,7 @@ papers:
     title: Multichannel audio source separation with deep neural networks
     year: '2015'
   j40T6joAAAAJ:ZfRJV9d4-WMC:
-    citations: 41
+    citations: 43
     title: Neural Full-Rank Spatial Covariance Analysis for Blind Source Separation
     year: '2021'
   j40T6joAAAAJ:_Re3VWB3Y0AC:
@@ -122,7 +122,7 @@ papers:
     title: Alpha-stable autoregressive fast multichannel nonnegative matrix factorization for joint speech enhancement and dereverberation
     year: '2021'
   j40T6joAAAAJ:_Ybze24A_UAC:
-    citations: 83
+    citations: 82
     title: Fast Multichannel Nonnegative Matrix Factorization With Directivity-Aware Jointly-Diagonalizable Spatial Covariance Matrices for Blind Source Separation
     year: '2020'
   j40T6joAAAAJ:d1gkVwhDpl0C:
@@ -159,7 +159,7 @@ papers:
     year: '2022'
   j40T6joAAAAJ:kzcrU_BdoSEC:
     citations: 6
-    title: Unsupervised Robust Speech Enhancement Based on Alpha-Stable Fast Multichannel Nonnegative Matrix Factorization.
+    title: Unsupervised robust speech enhancement based on alpha-stable fast multichannel nonnegative matrix factorization
     year: '2020'
   j40T6joAAAAJ:nrtMV_XWKgEC:
     citations: 12
@@ -190,12 +190,12 @@ papers:
     title: Joint Localization and Synchronization of Distributed Camera-Attached Microphone Arrays for Indoor Scene Analysis
     year: '2022'
   j40T6joAAAAJ:uLbwQdceFCQC:
-    citations: 46
+    citations: 45
     title: A Flow-Based Deep Latent Variable Model for Speech Spectrogram Modeling and Enhancement
     year: '2020'
   j40T6joAAAAJ:uWiczbcajpAC:
     citations: 1
-    title: PHYSICS-INFORMED LEARNING OF NEURAL SCATTERING FIELDS TOWARDS MEASUREMENT-FREE MESH-TO-HRTF ESTIMATION
+    title: Physics-informed learning of neural scattering fields towards measurement-free mesh-to-hrtf estimation
     year: '2026'
   j40T6joAAAAJ:uc_IGeMz5qoC:
     citations: 2
@@ -206,7 +206,7 @@ papers:
     title: 'SIRUP: A diffusion-based virtual upmixer of steering vectors for highly-directive spatialization with first-order ambisonics'
     year: '2026'
   j40T6joAAAAJ:yB1At4FlUx8C:
-    citations: 13
+    citations: 15
     title: 'RIR-in-a-Box: Estimating Room Acoustics from 3D Mesh Data through Shoebox Approximation'
     year: '2024'
   j40T6joAAAAJ:ye4kPcJQO24C:
