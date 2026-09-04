@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-09-04'
 papers:
   j40T6joAAAAJ:-_dYPAW6P2MC:
     citations: 0
@@ -54,11 +54,11 @@ papers:
     title: Audio-Visual SLAM towards Human Tracking and Human-Robot Interaction in Indoor Environments
     year: '2019'
   j40T6joAAAAJ:LjlpjdlvIbIC:
-    citations: 482
+    citations: 484
     title: An analysis of environment, microphone and data simulation mismatches in robust speech recognition
     year: '2017'
   j40T6joAAAAJ:LkGwnXOMwfcC:
-    citations: 57
+    citations: 58
     title: Robust ASR using neural network based speech enhancement and feature simulation
     year: '2015'
   j40T6joAAAAJ:N5tVd3kTz84C:
@@ -110,7 +110,7 @@ papers:
     title: Neural Fast Full-Rank Spatial Covariance Analysis for Blind Source Separation
     year: '2023'
   j40T6joAAAAJ:YsMSGLbcyi4C:
-    citations: 424
+    citations: 429
     title: Multichannel audio source separation with deep neural networks
     year: '2015'
   j40T6joAAAAJ:ZfRJV9d4-WMC:
@@ -142,7 +142,7 @@ papers:
     title: Generalized Fast Multichannel Nonnegative Matrix Factorization Based on Gaussian Scale Mixtures for Blind Source Separation
     year: '2022'
   j40T6joAAAAJ:fEOibwPWpKIC:
-    citations: 16
+    citations: 17
     title: Autoregressive Moving Average Jointly-Diagonalizable Spatial Covariance Analysis for Joint Source Separation and Dereverberation
     year: '2022'
   j40T6joAAAAJ:hkOj_22Ku90C:
@@ -202,7 +202,7 @@ papers:
     title: Run-Time Adaptation of Neural Beamforming for Robust Speech Dereverberation and Denoising
     year: '2024'
   j40T6joAAAAJ:vDijr-p_gm4C:
-    citations: 0
+    citations: 1
     title: 'SIRUP: A diffusion-based virtual upmixer of steering vectors for highly-directive spatialization with first-order ambisonics'
     year: '2026'
   j40T6joAAAAJ:yB1At4FlUx8C:
