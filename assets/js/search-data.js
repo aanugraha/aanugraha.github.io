@@ -102,6 +102,11 @@ ninja.data = [{
           description: "A. A. Nugraha, K. Sekiguchi, and K. Yoshii, &quot;A deep generative model of speech complex spectrograms,&quot; in Proc. IEEE Int. Conf. Acoust., Speech, Signal Process., Brighton, UK, 2019, pp. 905--909.",
           section: "Demo",handler: () => {
               window.location.href = "/demo/speech_gen_model/";
+            },},{id: "demo-runtime-latency-control-for-streaming-guitar-tablature-transcription-through-constant-q-buffer-truncation",
+          title: 'Runtime latency control for streaming guitar tablature transcription through constant-Q buffer truncation',
+          description: "A. A. Nugraha, N. Iino, K. Yoshii, and M. Hamanaka, &quot;Runtime latency control for streaming guitar tablature transcription through constant-Q buffer truncation,&quot; APSIPA Transactions on Signal and Information Processing, under review.",
+          section: "Demo",handler: () => {
+              window.location.href = "/demo/streaming-tab/";
             },},{id: "news-our-article-neural-full-rank-spatial-covariance-analysis-for-blind-source-separation-has-been-accepted-for-publication-in-ieee-signal-processing-letters-it-is-now-available-on-ieee-xplore",
           title: 'Our article “Neural Full-Rank Spatial Covariance Analysis for Blind Source Separation” has been...',
           description: "",
