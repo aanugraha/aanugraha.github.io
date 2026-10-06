@@ -27,7 +27,7 @@ The system runs on a laptop's integrated GPU (Intel Core Ultra 7 265H with Arc 1
 An outlined ring is a reference note, drawn when it sounds.
 A filled marker is the model's prediction, drawn when the model outputs it, so the line between a ring and its marker is that note's delay.
 Green means the right string and fret, amber the right pitch on another string, and red a wrong or missed note.
-The Romanza performance has no reference notes, so it shows predictions only.
+The Romanza performance has no reference notes, so it shows predictions only, and there the marker colours indicate strings, not correctness.
 
 #### Video 1: one model, four latency settings
 
@@ -78,7 +78,7 @@ At this buffer, the four models' note-level tablature F-measures on the test spl
 
 #### Notes
 
-- Each estimated delay adds the audio delay calculated from the buffer, the frame alignment and the audio chunk, the median inference time measured on the laptop GPU with the viewer open, and a display time estimated in an earlier session. It leaves out the host's audio path, scheduling delays and queueing, so the delays seen in the videos can be somewhat longer.
+- Each estimated delay adds the audio delay calculated from the buffer, the frame alignment and the audio chunk, the median inference time measured on the laptop GPU with the viewer open and disconnected, and a display time estimated in an earlier session. It leaves out the host's audio path, scheduling delays and queueing, so the delays seen in the videos can be somewhat longer.
 - The two GuitarSet clips were chosen for a clear picture. The paper reports accuracy on all 120 test clips at every buffer.
 - Both videos run 2:06. Chapters: 0:16 jazz comping, 0:40 at quarter speed, 0:52 funk solo, 1:14 at quarter speed, 1:26 Romanza, 1:55 summary.
 
