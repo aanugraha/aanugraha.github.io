@@ -13,4 +13,3 @@ It was unfortunate that Murtiza Ali, the paper's first author, could not travel 
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/icassp2023_presentation.jpg" data-zoomable>
     </div>
 </div>
- 

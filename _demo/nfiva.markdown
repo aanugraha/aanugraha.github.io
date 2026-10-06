@@ -23,7 +23,7 @@ A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based I
 
 ### Audio Samples
 
-- All methods considered below are for determined blind source separation (BSS), in which source images are estimated given observations (captured by  microphones) irrespective of the actual number of sources. Therefore, as post-processing for the overdetermined cases, we pick estimated source images that have the highest average power.
+- All methods considered below are for determined blind source separation (BSS), in which source images are estimated given observations (captured by microphones) irrespective of the actual number of sources. Therefore, as post-processing for the overdetermined cases, we pick estimated source images that have the highest average power.
 - For the listening purpose, all audio files are stereo obtained by taking the first two channels from the estimated multichannel source images.
 - For simplicity, the number of parameter updates for AuxIVA is 64 and that for the others is 2048, although they might be sub-optimal.
 

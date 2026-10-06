@@ -11,7 +11,7 @@ redirect_from:
 
 ### Abstract
 
-This paper proposes an approach to the joint modeling of the short-time Fourier transform magnitude and phase spectrograms with a deep generative model. We assume that the magnitude follows a Gaussian distribution and the phase follows a von Mises distribution. To improve the consistency of the phase values in the time-frequency domain, we also apply the von Mises distribution to the phase derivatives, i.e., the group delay and the instantaneous frequency. Based on these assumptions, we explore and compare several combinations of loss functions for training our models.  Built upon the variational autoencoder framework, our model consists of three convolutional neural networks acting as an encoder, a magnitude decoder, and a phase decoder. In addition to the latent variables, we propose to also condition the phase estimation on the estimated magnitude. Evaluated for a time-domain speech reconstruction task, our models could generate speech with a high perceptual quality and a high intelligibility.
+This paper proposes an approach to the joint modeling of the short-time Fourier transform magnitude and phase spectrograms with a deep generative model. We assume that the magnitude follows a Gaussian distribution and the phase follows a von Mises distribution. To improve the consistency of the phase values in the time-frequency domain, we also apply the von Mises distribution to the phase derivatives, i.e., the group delay and the instantaneous frequency. Based on these assumptions, we explore and compare several combinations of loss functions for training our models. Built upon the variational autoencoder framework, our model consists of three convolutional neural networks acting as an encoder, a magnitude decoder, and a phase decoder. In addition to the latent variables, we propose to also condition the phase estimation on the estimated magnitude. Evaluated for a time-domain speech reconstruction task, our models could generate speech with a high perceptual quality and a high intelligibility.
 
 ![](./abstract.png){:width="100%"}
 
@@ -31,10 +31,10 @@ A. A. Nugraha, K. Sekiguchi, and K. Yoshii, "A deep generative model of speech c
 
 <div style="height:8px;font-size:8px;">&nbsp;</div>
 
-* All magnitude values are estimated by the different models.
-* For the model <span style="color:red">(M)</span>, the phase values are randomly sampled from a uniform distribution.
-* For the model <span style="color:blue">(J\*)</span>, the phase values are estimated by the model.
-* The Griffin-Lim algorithm (GLA) is done for 100 iterations.
+- All magnitude values are estimated by the different models.
+- For the model <span style="color:red">(M)</span>, the phase values are randomly sampled from a uniform distribution.
+- For the model <span style="color:blue">(J\*)</span>, the phase values are estimated by the model.
+- The Griffin-Lim algorithm (GLA) is done for 100 iterations.
 
 <div style="height:8px;font-size:8px;">&nbsp;</div>
 

@@ -24,13 +24,14 @@ A. A. Nugraha, D. Di Carlo, Y. Bando, M. Fontaine, and K. Yoshii, "Time-Domain A
 ### Audio Samples
 
 **Tasks**: single-channel separations of two speech signals on popular benchmark datasets
-- *clean* condition with WSJ0-2mix dataset (Hershey+ 2016),
-- *noisy* condition with WHAM! dataset (Wichern+ 2019), and
-- *noisy-reverberant* condition with WHAMR! dataset (Maciejewski+ 2020).
+
+- _clean_ condition with WSJ0-2mix dataset (Hershey+ 2016),
+- _noisy_ condition with WHAM! dataset (Wichern+ 2019), and
+- _noisy-reverberant_ condition with WHAMR! dataset (Maciejewski+ 2020).
 
 "OLA" denotes the overlap-add operation required for separation with overlapping segments.
 
-<!-- 
+<!--
 - For the listening purpose, all audio files are stereo obtained by taking the first two channels from the estimated multichannel source images.
 - The order of the separated sources may not be the same as that of the reference sources because we do not apply a source permutation solver.
 -->

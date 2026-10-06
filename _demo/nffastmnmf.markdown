@@ -34,7 +34,6 @@ A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based F
 
 <div style="height:16px;font-size:16px;">&nbsp;</div>
 
-
 <table style="width: 100%; border-collapse: separate; border-spacing: 8px;">
 <colgroup>
     <col width="50%" />
@@ -287,7 +286,6 @@ A. A. Nugraha, K. Sekiguchi, M. Fontaine, Y. Bando, and K. Yoshii, "Flow-Based F
 <h5><code class="language-plaintext highlighter-rouge">PCAFETER_12dB -- 447o030b_446o0315_444o030t</code></h5>
 
 <div style="height:16px;font-size:16px;">&nbsp;</div>
-
 
 <table style="width: 100%; border-collapse: separate; border-spacing: 8px;">
 <colgroup>

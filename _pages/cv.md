@@ -14,5 +14,6 @@ nav_order: 4
     {% include work_experience.html %}
 
     {% include awards.html %}
+
   </article>
 </div>

@@ -13,7 +13,7 @@ Thanks Mathieu Fontaine for the photo!
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/waspaa2023_presentation.jpg" data-zoomable>
     </div>
 </div>
- 
+
 <hr>
 
 Audio samples are available on <a href="{{ site.baseurl }}/demo/gpdkl">the demo web page</a>.
