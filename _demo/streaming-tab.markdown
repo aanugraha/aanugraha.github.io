@@ -13,13 +13,13 @@ The system listens to a guitar and writes tablature, the string and fret of each
 Most of its delay comes from the analysis buffer of its constant-Q front end, which must hold the long filter of the lowest note.
 We shorten this buffer at start-up by truncating the filters, so one trained model runs with a 216 ms buffer or a 16 ms buffer without retraining.
 A shorter buffer answers sooner but loses some accuracy on the lowest notes.
-The paper also studies two other ways to lower the delay, training the model with a shorter analysis window and raising the lowest analysed frequency, and measures the delay from pluck to display on a laptop.
+The paper also studies two other ways to lower the delay, training the model with a shorter analysis window and raising the lowest analysed frequency, and reports an estimated pluck-to-display latency budget on a laptop.
 
 ---
 
 ### Supplementary videos
 
-Both videos play the same three performances through the live system four times at once, with the four tablature displays stacked on one time axis.
+Both videos show the same performances recorded through the live system in four configurations, with the four tablature displays stacked on one time axis.
 The performances are two clips from the GuitarSet test split (jazz comping and a funk solo, each at normal speed and then at quarter speed) and a performance of Romanza on a Yamaha SILENT Guitar that the model had never heard.
 The system runs on a laptop's integrated GPU (Intel Core Ultra 7 265H with Arc 140T, Windows 11, plugged in, power mode “Best performance”).
 
@@ -29,7 +29,7 @@ A filled marker is the model's prediction, drawn when the model outputs it, so t
 Green means the right string and fret, amber the right pitch on another string, and red a wrong or missed note.
 The Romanza performance has no reference notes, so it shows predictions only, and there the marker colours indicate strings, not correctness.
 
-#### Video 1: one model, four latency settings
+#### Video 1: training window, buffer and chunk size
 
 <div style="position: relative; width: 100%; padding-top: 56.25%;">
   <iframe src="https://www.youtube-nocookie.com/embed/qTBAzXKa6Ac"
