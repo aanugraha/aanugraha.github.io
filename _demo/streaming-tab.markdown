@@ -50,6 +50,8 @@ The top band is the model of the paper's main experiments. Each band below it ch
 | third  | 11,584 samples  | 16 ms  | 50 ms       | 161 ms                           |
 | bottom | 11,584 samples  | 16 ms  | 25 ms       | 147 ms                           |
 
+<div style="height:16px;font-size:16px;">&nbsp;</div>
+
 The training window is fixed when the model is trained. The buffer and the audio chunk are chosen at start-up.
 With the shorter training window, the model's note-level tablature F-measure on the test split was lower by at most 0.018.
 
@@ -73,6 +75,8 @@ All four bands use the 16 ms buffer and 25 ms audio chunks. Raising the lowest a
 | second | 82.4 Hz (low E)           | 11,584 samples  | 147 ms                           |
 | third  | 110 Hz (A)                | 9,184 samples   | 122 ms                           |
 | bottom | 146.8 Hz (D)              | 6,784 samples   | 97 ms                            |
+
+<div style="height:16px;font-size:16px;">&nbsp;</div>
 
 At this buffer, the four models' note-level tablature F-measures on the test split differed by at most 0.02 in each test condition.
 
