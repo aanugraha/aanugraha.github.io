@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adaptive Online Neural Speech Enhancement with Augmented Reality Smart Glasses
-description: 'K. Sekiguchi, A. A. Nugraha, Y. Du, Y. Bando, M. Fontaine, and K. Yoshii, "Time-Domain Audio Source Separation Based on Gaussian Processes with Deep Kernel Learning," in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst., Kyoto, Japan, 2022, pp. 9266-9273.'
+description: 'K. Sekiguchi, A. A. Nugraha, Y. Du, Y. Bando, M. Fontaine, and K. Yoshii, "Direction-Aware Adaptive Online Neural Speech Enhancement with an Augmented Reality Headset in Real Noisy Conversational Environments," in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst., Kyoto, Japan, 2022, pp. 9266-9273.'
 img: assets/img/demo/featured_iros22.png
 importance: -7
 category: work
@@ -15,7 +15,7 @@ This paper describes the practical response- and performance-aware development o
 
 ### Reference
 
-K. Sekiguchi, A. A. Nugraha, Y. Du, Y. Bando, M. Fontaine, and K. Yoshii, "Time-Domain Audio Source Separation Based on Gaussian Processes with Deep Kernel Learning," in _Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst._, Kyoto, Japan, 2022, pp. 9266-9273, doi: [10.1109/IROS47612.2022.9981659](https://doi.org/10.1109/IROS47612.2022.9981659).
+K. Sekiguchi, A. A. Nugraha, Y. Du, Y. Bando, M. Fontaine, and K. Yoshii, "Direction-Aware Adaptive Online Neural Speech Enhancement with an Augmented Reality Headset in Real Noisy Conversational Environments," in _Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst._, Kyoto, Japan, 2022, pp. 9266-9273, doi: [10.1109/IROS47612.2022.9981659](https://doi.org/10.1109/IROS47612.2022.9981659).
 
 ---
 
