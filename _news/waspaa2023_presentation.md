@@ -6,7 +6,7 @@ inline: false
 ---
 
 I presented our paper <a href="https://ieeexplore.ieee.org/document/10248168">"Time-Domain Audio Source Separation Based on Gaussian Processes with Deep Kernel Learning"</a> at IEEE WASPAA 2023 in New Paltz, NY, USA.
-Thanks Mathieu Fontaine for the photo!
+Thanks to Mathieu Fontaine for the photo!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
