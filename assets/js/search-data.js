@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "This page lists publications in reversed chronological order. Asterisk symbols (*) indicate authors who contributed equally to an article. An up-to-date list is available on Google Scholar.",
+          description: "This page lists publications in reverse chronological order. Asterisk symbols (*) indicate authors who contributed equally to an article. An up-to-date list is available on Google Scholar.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -30,29 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "demo-speech-enhancement-with-deep-speech-prior",
+        },{id: "demo-speech-enhancement-with-deep-speech-prior",
           title: 'Speech Enhancement with Deep Speech Prior',
           description: "K. Sekiguchi, Y. Bando, A. A. Nugraha, K. Yoshii, and T. Kawahara, &quot;Semi-supervised multichannel speech enhancement with a deep speech prior,&quot; IEEE/ACM Trans. Audio, Speech, Language Process., vol. 27, no. 12, pp. 2197–2212, 2019.",
           section: "Demo",handler: () => {
@@ -74,7 +52,7 @@ ninja.data = [{
               window.location.href = "/demo/gpds-sr/";
             },},{id: "demo-adaptive-online-neural-speech-enhancement-with-augmented-reality-smart-glasses",
           title: 'Adaptive Online Neural Speech Enhancement with Augmented Reality Smart Glasses',
-          description: "K. Sekiguchi, A. A. Nugraha, Y. Du, Y. Bando, M. Fontaine, and K. Yoshii, &quot;Time-Domain Audio Source Separation Based on Gaussian Processes with Deep Kernel Learning,&quot; in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst., Kyoto, Japan, 2022, pp. 9266-9273.",
+          description: "K. Sekiguchi, A. A. Nugraha, Y. Du, Y. Bando, M. Fontaine, and K. Yoshii, &quot;Direction-Aware Adaptive Online Neural Speech Enhancement with an Augmented Reality Headset in Real Noisy Conversational Environments,&quot; in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst., Kyoto, Japan, 2022, pp. 9266-9273.",
           section: "Demo",handler: () => {
               window.location.href = "/demo/iros22/";
             },},{id: "demo-music-separation",
@@ -110,13 +88,13 @@ ninja.data = [{
             },},{id: "news-our-article-neural-full-rank-spatial-covariance-analysis-for-blind-source-separation-has-been-accepted-for-publication-in-ieee-signal-processing-letters-it-is-now-available-on-ieee-xplore",
           title: 'Our article “Neural Full-Rank Spatial Covariance Analysis for Blind Source Separation” has been...',
           description: "",
-          section: "News",},{id: "news-our-sound-scene-understanding-team-hosted-the-39th-riken-aip-center-open-seminar-a-video-archive-will-be-available-soon-on-the-webpage-of-aip-open-seminar-series",
+          section: "News",},{id: "news-our-sound-scene-understanding-team-hosted-the-39th-riken-aip-center-open-seminar-the-video-archive-is-available-on-youtube",
           title: 'Our Sound Scene Understanding Team hosted the 39th RIKEN AIP Center Open Seminar....',
           description: "",
           section: "News",},{id: "news-the-final-published-version-of-our-article-neural-full-rank-spatial-covariance-analysis-for-blind-source-separation-is-now-available-on-ieee-xplore",
           title: 'The final published version of our article “Neural Full-Rank Spatial Covariance Analysis for...',
           description: "",
-          section: "News",},{id: "news-our-article-quot-an-analysis-of-environment-microphone-and-data-simulation-mismatches-in-robust-speech-recognition-quot-received-isca-award-for-the-best-review-paper-published-in-computer-speech-and-language-2016-2020",
+          section: "News",},{id: "news-our-article-quot-an-analysis-of-environment-microphone-and-data-simulation-mismatches-in-robust-speech-recognition-quot-received-the-isca-award-for-the-best-review-paper-published-in-computer-speech-and-language-2016-2020",
           title: 'Our article &amp;quot;An analysis of environment, microphone and data simulation mismatches in robust...',
           description: "",
           section: "News",handler: () => {
@@ -177,14 +155,24 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026_riken_aip/";
-            },},{id: "news-i-am-grateful-to-receive-a-grants-in-aid-for-scientific-research-kakenhi-scientific-research-c-no-26k14896-from-the-japan-society-for-the-promotion-of-science-jsps-for-the-project-semantics-driven-multimodal-control-of-spatio-spectral-filtering-for-real-world-augmented-listening-with-smart-glasses",
-          title: 'I am grateful to receive a Grants-in-Aid for Scientific Research (KAKENHI) – Scientific...',
+            },},{id: "news-i-am-grateful-to-receive-a-grant-in-aid-for-scientific-research-kakenhi-scientific-research-c-no-26k14896-from-the-japan-society-for-the-promotion-of-science-jsps-for-the-project-semantics-driven-multimodal-control-of-spatio-spectral-filtering-for-real-world-augmented-listening-with-smart-glasses",
+          title: 'I am grateful to receive a Grant-in-Aid for Scientific Research (KAKENHI) – Scientific...',
           description: "",
           section: "News",},{id: "news-three-papers-at-icassp-2026-from-missing-samples-to-personalized-3d-audio",
           title: 'Three Papers at ICASSP 2026: From Missing Samples to Personalized 3D Audio',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026_icassp/";
+            },},{id: "news-one-paper-at-interspeech-2026-and-two-at-iwaenc-2026-direction-informed-separation-and-audio-visual-scene-analysis",
+          title: 'One Paper at Interspeech 2026 and Two at IWAENC 2026: Direction-Informed Separation and...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026_interspeech_iwaenc/";
+            },},{id: "news-live-guitar-tablature-transcription-at-acm-mm-2026-and-three-papers-at-apsipa-asc-2026",
+          title: 'Live Guitar Tablature Transcription at ACM MM 2026, and Three Papers at APSIPA...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026_mm_apsipa/";
             },},{
         id: 'social-email',
         title: 'email',
