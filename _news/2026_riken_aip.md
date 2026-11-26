@@ -5,7 +5,7 @@ date: 2026-04-01 00:00:00+0900
 inline: false
 ---
 
-After several fruitful years, the [Sound Scene Understanding Team](https://aip.riken.jp/labs/domain_intel/sound_scene_understand/) at RIKEN-AIP, led by [Kazuyoshi Yoshii](https://sts.kuee.kyoto-u.ac.jp/ja/people/k.yoshii/), officially closed at the end of March 2026.
+After several fruitful years, the [Sound Scene Understanding Team](https://aip.riken.jp/labs/domain_intel/sound_scene_understand/) at RIKEN-AIP, led by [Kazuyoshi Yoshii](https://bfe.kuee.kyoto-u.ac.jp/members/k.yoshii/), officially closed at the end of March 2026.
 
 I am deeply grateful for the inspiring research environment, wonderful collaborators, and many opportunities to explore audio, speech, and spatial sound from both theoretical and practical perspectives.
 
