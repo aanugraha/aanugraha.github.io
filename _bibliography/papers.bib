@@ -42,6 +42,19 @@
     abstract = {This paper describes aneural blind source separation (BSS) method based on amortized variational inference (AVI) of a non-linear generative model of mixture signals. A classical statistical approach to BSS is to fit a linear generative model that consists of spatial and source models representing the inter-channel covariances and power spectral densities of sources, respectively. Although the variational autoencoder (VAE) has successfully been used as a non-linear source model with latent features, it should be pretrained from a sufficient amount of isolated signals. Our method, in contrast, enables the VAE-based source model to be trained only from mixture signals. Specifically, we introduce a neural mixture-to-feature inference model that directly infers the latent features from the observed mixture and integrate it with a neural feature-to-mixture generative model consisting of a full-rank spatial model and a VAE-based source model. All the models are optimized jointly such that the likelihood for the training mixtures is maximized in the framework of AVI. Once the inference model is optimized, it can be used for estimating the latent features of sources included in unseen mixture signals. The experimental results show that the proposed method outperformed the state-of-the-art BSS methods based on linear generative models and was comparable to a method based on supervised learning of the VAE-based sourcemodel.},
 }
 
+@ARTICLE{dicarlo2026gpsteering,
+    abbr        = {TASLP},
+    bibtex_show = {true},
+    author      = {Di Carlo, Diego and Koyama, S. and Nugraha, Aditya Arie and Fontaine, Mathieu and Bando, Yoshiaki and Yoshii, Kazuyoshi},
+    journal     = {{IEEE} Transactions on Audio, Speech and Language Processing},
+    title       = {Gaussian Process Regression of Steering Vectors With Physics-Aware Deep Composite Kernels for Augmented Listening},
+    year        = {2026},
+    volume      = {34},
+    pages       = {2695--2708},
+    html        = {https://doi.org/10.1109/TASLPRO.2026.3684398},
+    doi         = {10.1109/TASLPRO.2026.3684398},
+}
+
 @ARTICLE{fontaine2022gsmfastmnmf,
     abbr     = {TASLP},
     bibtex_show = {true},
@@ -264,6 +277,17 @@
     html      = {https://ieeexplore.ieee.org/document/11249412},
     doi       = {10.1109/APSIPAASC65261.2025.11249412},
     abstract  = {This paper proposes visually-informed sound source separation for audio-visual understanding of indoor scenes captured by distributed microphone arrays and cameras. Our approach leverages the 3D information of sound-emitting objects, reconstructed via 3D Gaussian splatting (3DGS), to overcome a limitation of modern blind source separation methods like multichannel nonnegative matrix factorization (MNMF). While adaptable and potentially performant, the iterative optimization of MNMF often converges to poor local minima due to the highly-expressive full-rank spatial covariance matrices (SCMs) of sources. Our key idea is to treat the set of 3D Gaussians representing a sizable sound source object as a collection of sub-sources that share an audio signal but have unique emission weights, both of which are to be estimated jointly from an observed mixture. To enforce this structure, we guide MNMF by regularizing the SCM of each source object at each frequency. Specifically, we use a prior that centers the SCM estimate around a weighted sum of theoretical SCMs, which are analytically derived from the 3D Gaussian positions. Experiments with simulated data, featuring two 3D human models, demonstrated the effectiveness of the proposed method. To our knowledge, this is the first work to use 3D Gaussians as a common primitive for joint audio-visual analysis.},
+}
+
+@INPROCEEDINGS{asano2026gaussianprimitives,
+    abbr        = {IWAENC},
+    bibtex_show = {true},
+    author      = {Asano, Haruaki and Bando, Yoshiaki and Nugraha, Aditya Arie and Ito, Yosuke and Yoshii, Kazuyoshi},
+    title       = {Joint Sound Source Separation and 3D Shape Estimation Based on Multimodal Gaussian Primitives},
+    booktitle   = {Proceedings of International Workshop on Acoustic Signal Enhancement (IWAENC)},
+    year        = {2026},
+    month       = {sep},
+    address     = {Cremona, Italy},
 }
 
 @INPROCEEDINGS{bando2023neuralfastfca,
@@ -526,6 +550,17 @@ Association (Interspeech)},
     abstract  = {This paper describes the first attempt at separation and tracking (3 D localization) of multiple moving sound sources using multiple microphone arrays fixed at known locations in an indoor environment. As for static sources, location-dependent priors have been incorporated on the time-invariant spatial covariance matrices (SCMs) of sources in the statistical framework of blind source separation based on multichannel nonnegative matrix factorization (MNMF), achieving the maximum likelihood estimation of source locations. One may thus make both the SCMs and their priors vary over time to deal with source movements. This naive extension, however, fails to localize sources when the sources are inactive, yielding non-smooth, non-continuous trajectory estimates. To solve this problem, we formulate a hierarchical probabilistic model for multichannel mixture signals that consists of inertial Markov models for source locations, location-aware moving-average models for source SCMs, and NMF-based lowrank models for the power spectral densities (PSDs) of sources. All the time-varying attributes of sources are jointly estimated under a maximum-a-posteriori (MAP) principle, and the source images are then estimated with a multichannel Wiener filter. The experiment using simulated data with two moving sources and four four-channel arrays showed that the proposed method achieved better separation and smoother localization.},
 }
 
+@INPROCEEDINGS{nihei2026jointseptrack,
+    abbr        = {IWAENC},
+    bibtex_show = {true},
+    author      = {Nihei, Ryunosuke and Bando, Yoshiaki and Nugraha, Aditya Arie and Ito, Yosuke and Yoshii, Kazuyoshi},
+    title       = {Joint Separation and Tracking of Moving Speakers Based on a Unified Audio-visual Probabilistic Model for Distributed Sensors},
+    booktitle   = {Proceedings of International Workshop on Acoustic Signal Enhancement (IWAENC)},
+    year        = {2026},
+    month       = {sep},
+    address     = {Cremona, Italy},
+}
+
 @InProceedings{nugraha2012speaker,
     abbr      = {ASJ},
     bibtex_show = {true},
@@ -657,6 +692,57 @@ Association (Interspeech)},
     html      = {https://ieeexplore.ieee.org/document/11462432},
     doi       = {10.1109/ICASSP55912.2026.11462432},
     abstract  = {This paper describes genuine audio super-resolution (SR) that aims to estimate a continuous signal from a discrete signal in a sampling-rate-agnostic manner based on deep kernel learning (DKL). We assume that the discrete signal is obtained by observing the continuous signal at arbitrary, possibly irregular time points. From a statistical point of view, audio SR can thus be tackled as curve fitting, an inverse problem based on a probabilistic model that represents the generation of a discrete signal from a continuous signal (curve). To deal with speech signals with complicated temporal dynamics, we propose a continuous-time-domain speech SR method that uses a nonlinear state-space model called a Gaussian process dynamical system (GPDS) as a prior on the speech signal. Specifically, we assume the speech signal to follow a GP conditioned by a latent signal following another GP. Given discrete observations, we approximate the latent posterior via variational inference with neural-based DKL and then sample the speech signal on an arbitrarily finer time grid. We empirically confirmed that the proposed method, GPDS-SR, remains robust to missing and irregular input samples and supports prediction on even nonstandard output rates while estimating plausible high-frequency content consistent with the observed context.},
+}
+
+@INPROCEEDINGS{nugraha2026mic2fret,
+    selected    = {true},
+    abbr        = {ACM MM},
+    bibtex_show = {true},
+    author      = {Nugraha, Aditya Arie and Iino, N. and Yoshii, Kazuyoshi and Hamanaka, M.},
+    title       = {Mic to Fretboard: Live Guitar Tablature Transcription},
+    booktitle   = {Proceedings of ACM International Conference on Multimedia (MM)},
+    year        = {2026},
+    month       = {nov},
+    pages       = {17223--17225},
+    address     = {Rio de Janeiro, Brazil},
+    html        = {https://doi.org/10.1145/3767308.3839004},
+    doi         = {10.1145/3767308.3839004},
+}
+
+@INPROCEEDINGS{ohgo2026hrtfrtf,
+    abbr        = {APSIPA},
+    bibtex_show = {true},
+    author      = {Ohgo, K. and Di Carlo, Diego and Ueda, Hiroyuki and Nugraha, Aditya Arie and Ito, Yosuke and Yoshii, Kazuyoshi},
+    title       = {Joint Estimation of Head-Related and Room Transfer Functions Based on the Differentiable Image Source Model},
+    booktitle   = {Proceedings of Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA-ASC)},
+    year        = {2026},
+    month       = {nov},
+    address     = {Bangkok, Thailand},
+}
+
+@INPROCEEDINGS{ono2026directivity,
+    abbr        = {Interspeech},
+    bibtex_show = {true},
+    author      = {Ono, R. and Nugraha, Aditya Arie and Bando, Yoshiaki and Yoshii, Kazuyoshi},
+    title       = {Fast Multichannel Nonnegative Matrix Factorization with Directivity Regularization for DOA-Informed Speech Separation},
+    booktitle   = {Proceedings of Annual Conference of the International Speech Communication Association (Interspeech)},
+    year        = {2026},
+    month       = {sep},
+    pages       = {6744--6748},
+    address     = {Sydney, Australia},
+    html        = {https://doi.org/10.21437/Interspeech.2026-2139},
+    doi         = {10.21437/Interspeech.2026-2139},
+}
+
+@INPROCEEDINGS{ozawa2026sourceroom,
+    abbr        = {APSIPA},
+    bibtex_show = {true},
+    author      = {Ozawa, K. and Nugraha, Aditya Arie and Ito, Yosuke and Yoshii, Kazuyoshi},
+    title       = {Joint Estimation of Source Position and Room Acoustics Based on the Differentiable Image Source Model},
+    booktitle   = {Proceedings of Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA-ASC)},
+    year        = {2026},
+    month       = {nov},
+    address     = {Bangkok, Thailand},
 }
 
 @INPROCEEDINGS{picard2026sirup,
@@ -814,7 +900,18 @@ Robots and Systems (IROS)},
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TECHREPORT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@techreport{nugraha2013dereverb,
+@INPROCEEDINGS{zhang2026ldps,
+    abbr        = {APSIPA},
+    bibtex_show = {true},
+    author      = {Zhang, Z. and Nugraha, Aditya Arie and Yoshii, Kazuyoshi and Kawahara, Tatsuya},
+    title       = {Local Gaussian Diffusion Posterior Sampling for Unsupervised Multichannel Noisy Speech Separation},
+    booktitle   = {Proceedings of Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA-ASC)},
+    year        = {2026},
+    month       = {nov},
+    address     = {Bangkok, Thailand},
+}
+
+@techreport{nugraha2013techreport,
     abbr        = {SP/IPSJ-SLP},
     bibtex_show = {true},
     author      = {Aditya Arie Nugraha and Kazumasa Yamamoto and Seiichi Nakagawa},
