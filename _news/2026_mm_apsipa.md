@@ -1,17 +1,17 @@
 ---
 layout: post
 title: "Live Guitar Tablature Transcription at ACM MM 2026, and Three Papers at APSIPA ASC 2026"
-date: 2026-11-26 00:00:01+0900
+date: 2026-11-30 00:00:00+0900
 inline: false
 ---
 
-Our team has four papers at two conferences in November 2026.
+In November 2026, our team presented four papers at two conferences.
 
-At ACM Multimedia 2026 in Rio de Janeiro, we present a demo of live guitar tablature transcription, which estimates the string and fret of each played note from microphone audio:
+At ACM Multimedia 2026 in Rio de Janeiro, we presented a demo of live guitar tablature transcription, which estimates the string and fret of each played note from microphone audio:
 
-- "[Mic to Fretboard: Live Guitar Tablature Transcription](https://doi.org/10.1145/3767308.3839004)," Aditya Arie Nugraha, Nami Iino, Kazuyoshi Yoshii, Masatoshi Hamanaka.
+- "[Mic to Fretboard: Live Guitar Tablature Transcription](https://doi.org/10.1145/3767308.3839004)," Aditya Arie Nugraha, Nami Iino, Kazuyoshi Yoshii, Masatoshi Hamanaka. The paper and a demo video are available via the DOI link.
 
-At APSIPA ASC 2026 in Bangkok, we have three papers on room acoustics, head-related transfer functions, and unsupervised speech separation:
+At APSIPA ASC 2026 in Bangkok, we presented three papers on room acoustics, head-related transfer functions, and unsupervised speech separation:
 
 - "Joint Estimation of Source Position and Room Acoustics Based on the Differentiable Image Source Model," Kotaro Ozawa, Aditya Arie Nugraha, Yosuke Ito, Kazuyoshi Yoshii.
 
